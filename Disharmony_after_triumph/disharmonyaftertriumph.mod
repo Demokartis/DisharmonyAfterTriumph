@@ -9,6 +9,7 @@ tags={
 }
 name="Disharmony After Triumph"
 replace_path="common/ideologies"
+replace_path="history/countries"
 replace_path="common/ideas"
 replace_path="common/national_focus"
 replace_path="common/decisions" 

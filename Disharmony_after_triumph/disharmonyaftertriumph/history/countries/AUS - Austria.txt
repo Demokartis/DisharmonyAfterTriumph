@@ -15,17 +15,17 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = social_democrat
 	last_election = "1930.11.9"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	paternal_autocrat = 48
-	national_chauvinist = 13
+	social_liberal = 14
+	collective_vanguardist = 13
 	authoritarian_democrat = 8
-	social_democrat = 6
+	social_democrat = 40
 	communardist = 25	
 }
 

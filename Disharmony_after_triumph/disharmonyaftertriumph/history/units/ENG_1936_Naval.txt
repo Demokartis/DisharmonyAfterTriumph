@@ -269,7 +269,7 @@
 		}							
 	}
 
-instant_effect = {
+ instant_effect = {
 	### Ongoing Ship Production Jan 1 1936 ###
 	# CL: Amphion-class variant ("HMS Amphion", Comm. 15-Jun, 1936, "HMS Apollo", Comm. 13-Jan 1936, "HMS Penelope", Comm. 12-Nov 1936)
 	add_equipment_production = {

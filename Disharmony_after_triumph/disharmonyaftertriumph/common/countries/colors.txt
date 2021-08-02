@@ -463,7 +463,7 @@ PAK = {
 	color = rgb { 21 38 66 }
 	color_ui = rgb { 21 38 66 }
 }
-WGR = {
+SGE = {
     color = rgb { 255 33 92 } # The colors are set to be more are less what we are used to
     color_ui = rgb { 255 71 114 }
 }
