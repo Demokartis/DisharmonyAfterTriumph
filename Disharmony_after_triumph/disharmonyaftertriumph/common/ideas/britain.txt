@@ -1,0 +1,45 @@
+ideas = {
+
+	country = {
+
+		the_british_civil_war = {
+
+			name = the_british_civil_war
+
+			picture = the_british_civil_war
+
+			allowed = {
+				original_tag = ENG
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				surrender_limit = 1
+				max_surrender_limit_offset = 0.15
+			}
+		}
+		
+		ENG_the_sun_is_setting = {
+
+			name = ENG_the_sun_is_setting
+
+			picture = ENG_the_sun_is_setting
+
+			allowed = {
+				original_tag = ENG
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1 
+			}
+		}		
+	}
+}	

@@ -1,0 +1,12 @@
+spriteTypes = {
+	
+	spriteType = { 
+		name = "GFX_news_event_angel_pestaña_assasinated"
+		texturefile = "gfx/event_pictures/news_event_angel_pestaña_assasinated.dds"
+	}
+	spriteType = { 
+		name = "GFX_news_event_great_britain_reunified_1"
+		texturefile = "gfx/event_pictures/news_event_great_britain_reunified_1.dds"
+	}	
+	
+}

@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	SpriteType = { 
+		name = "GFX_focus_TUR_loosen_the_laws_on_secularism"
+		texturefile = "gfx/interface/goals/focus_TUR_loosen_the_laws_on_secularism.dds"
+	}
+}

@@ -1,0 +1,7 @@
+spriteTypes = {
+	#Sub-Ideology
+	SpriteType = { 
+		name = "GFX_ideology_revolutionary_conservatism"
+		texturefile = "gfx/interface/ideologies/revolutionary_conservatism_group.dds"
+	}
+}
