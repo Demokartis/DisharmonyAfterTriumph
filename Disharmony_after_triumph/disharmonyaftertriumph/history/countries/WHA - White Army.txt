@@ -98,6 +98,8 @@ set_popularities = {
 create_faction = "White Army"
 add_to_faction = WHA
 add_to_faction = WHC
+add_to_faction = DON
+add_to_faction = KUB
 
 ### VARIANTS ###
 # 1936 Start #

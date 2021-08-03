@@ -1,4 +1,4 @@
-state={
+	state={
 	id=771
 	name="STATE_771" # Zambia
 	
@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = POR
+		owner = ZAM
 		add_core_of = ZAM
 		victory_points = {
 			5199 1

@@ -296,7 +296,7 @@ USA_CSA = {
 	color_ui = rgb { 186 205 219 }
 }
 
-SOV_russia = {
+SOV_russia_green = {
     color = rgb { 72 143 68 }
     color_ui = rgb { 72 143 68 }
 }

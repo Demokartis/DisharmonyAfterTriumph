@@ -102,6 +102,15 @@ add_to_faction = UKR
 add_to_faction = LIT
 add_to_faction = BLR
 
+set_cosmetic_tag = SOV_russia
+
+# DIPLOMACY / WAR 
+	declare_war_on = {
+		target = WHA		
+		type = annex_everything
+	}
+	
+
 create_country_leader = {
 	name = "Leon Trotsky"
 	desc = "POLITICS_LEON_TROTSKY_DESC"

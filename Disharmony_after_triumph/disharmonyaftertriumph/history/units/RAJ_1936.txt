@@ -1,0 +1,85 @@
+﻿division_template = {
+	name = "Infantry Division"
+	division_names_group = RAJ_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "District Garrison"			# Represents precursors to Indian Infantry Divisions (district divisions)
+	division_names_group = RAJ_GAR_01
+										# Has older equipment, lower experience
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Armored-Division"
+	division_names_group = RAJ_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+####### OOB #######
+units = {
+	#India Command
+	division= {	# "Madras District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 111
+		}
+		location = 10278
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+}
+
+air_wings = {
+	### AHQ India
+	439 = { 
+		### AHQ India -- Fairey Gordons, Battles
+		CAS_equipment_1 = {
+			owner = "RAJ" 
+			amount = 80
+		}
+	}
+}
+
+
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "RAJ"
+		}
+		requested_factories = 1
+		progress = 0.12
+		efficiency = 100
+	}
+}

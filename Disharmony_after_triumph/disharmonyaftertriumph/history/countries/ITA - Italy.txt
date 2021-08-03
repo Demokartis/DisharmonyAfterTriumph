@@ -97,15 +97,16 @@ if = {
 set_convoys = 200
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = social_liberal
 	last_election = "1934.3.26"
 	election_frequency = 60
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	social_conservative = 18
-	social_democrat = 8
-	authoritarian_democrat = 64
+	social_conservative = 28
+	social_democrat = 20
+	social_liberal = 34	
+	authoritarian_democrat = 8
 	communardist = 6
 	revolutionary_socialist = 4	
 }
