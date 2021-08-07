@@ -109,6 +109,22 @@ set_cosmetic_tag = SOV_russia
 		target = WHA		
 		type = annex_everything
 	}
+	declare_war_on = {
+		target = WHC	
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = DON		
+		type = annex_everything
+	}	
+	declare_war_on = {
+		target = KUB		
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = RUS		
+		type = annex_everything
+	}	
 	
 
 create_country_leader = {

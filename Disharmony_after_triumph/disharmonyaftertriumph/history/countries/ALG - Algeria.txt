@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 20
 
  set_cosmetic_tag = NAFU
-
+ give_military_access = FRA
 
 set_politics = {
 	ruling_party = communardist

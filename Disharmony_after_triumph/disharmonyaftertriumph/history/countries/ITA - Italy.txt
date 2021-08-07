@@ -123,22 +123,32 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ferruccio Parri"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "GFX_portrait_italy_ferruccio_parri"
+	name = "Ivanoe Bonomi"
+	desc = "POLITICS_IVANOE_BONOMI_DESC"
+	picture = "GFX_Portrait_Ivanoe_Bonomi"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
 		
 	}
 }
-
 create_country_leader = {
 	name = "Victor Emmanuel III"
 	desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
 	picture = "GFX_portrait_italy_victor_emmanuel_iii"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Francesco Saverio Nitti"
+	desc = "POLITICS_FRANCESCO_SAVERIO_NITTI_DESC"
+	picture = "Portrait_Francesco_Saverio_Nitti.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
 	traits = {
 
 	}

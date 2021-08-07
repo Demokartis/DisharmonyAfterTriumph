@@ -45,14 +45,20 @@ if = {
 set_convoys = 40
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = social_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	paternal_autocrat = 100
+	social_democrat = 54
+	communardist = 15
+    revolutionary_socialist = 6
+    collective_vanguardist = 17	
+	authoritarian_democrat = 2	
+	social_conservative = 2	
+	social_liberal = 4	
 }
 
 create_country_leader = {

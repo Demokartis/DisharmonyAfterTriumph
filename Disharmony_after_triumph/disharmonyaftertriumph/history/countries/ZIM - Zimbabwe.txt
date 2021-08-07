@@ -12,13 +12,13 @@ set_convoys = 5
 
 # A colongy of Italy in 1939, however if independent it would have the same politics as in 1936
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	paternal_autocrat = 100
+	authoritarian_democrat = 100
 }
 
 create_country_leader = {

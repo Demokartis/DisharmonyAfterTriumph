@@ -24,6 +24,34 @@ news_event = {
 						FROM.FROM = { has_government = social_conservative }
 					}
 					AND = {
+						ROOT = { has_government = social_democrat }
+						FROM.FROM = { has_government = social_democrat }
+					}
+					AND = {
+						ROOT = { has_government = social_liberal }
+						FROM.FROM = { has_government = social_liberal }
+					}
+					AND = {
+						ROOT = { has_government = communardist }
+						FROM.FROM = { has_government = communardist }
+					}
+					AND = {
+						ROOT = { has_government = market_liberal }
+						FROM.FROM = { has_government = market_liberal }
+					}
+					AND = {
+						ROOT = { has_government = authoritarian_democrat }
+						FROM.FROM = { has_government = authoritarian_democrat }
+					}		
+					AND = {
+						ROOT = { has_government = revolutionary_socialist }
+						FROM.FROM = { has_government = revolutionary_socialist }
+					}	
+					AND = {
+						ROOT = { has_government = insurrectionary_anarchist }
+						FROM.FROM = { has_government = insurrectionary_anarchist }
+					}						
+					AND = {
 						ROOT = { has_government = collective_vanguardist }
 						FROM.FROM = { has_government = collective_vanguardist }
 					}

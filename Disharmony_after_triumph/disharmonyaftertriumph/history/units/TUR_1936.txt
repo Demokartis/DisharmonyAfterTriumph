@@ -138,18 +138,6 @@ units = {
 
 	### Birinci Ordu ###
 	division = {
-		#name = "11. Piyade Tümeni"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 11
-		}
-		location = 10122
-		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division = {
 		#name = "2. Süvari Tümeni (armored)"
 		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
@@ -159,19 +147,6 @@ units = {
 		division_template = "Zirhli Tümeni" 
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
-
-	}
-	## III. Kolordu ##
-	division = {
-		#name = "1. Piyade Tümeni"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 1005
-		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
 
 	}
 	division = {
@@ -219,18 +194,6 @@ units = {
 		}
 		location = 9932
 		division_template = "Piyade Tümeni" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
-	division = {
-		#name = "1. Dag Tugayi"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 12476
-		division_template = "Dag Tugayi" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
@@ -310,19 +273,6 @@ units = {
 		division_template = "Piyade Tümeni" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
-
-	}
-	division = {
-		#name = "Hakkâri Bogazi Tugay"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 82
-		}
-		location = 12476
-		division_template = "Bogazi Tugay"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "TUR" } }
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.1
 
 	}
 	division = {
