@@ -215,3 +215,36 @@ news_event = {
 		}
 	}
 }
+
+# The Red Army March towards South Ukraine
+news_event = {
+	id = news.3
+	title = news.3.title
+	desc = news.3.desc
+	picture = GFX_news_event_ukraine_red_black_war
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = news.3.a
+		trigger = {
+			NOT = { tag = UKR }
+			NOT = { tag = MKH }
+		}
+	}
+	option = {
+		name = news.3.b
+		trigger = {
+			tag = UKR
+		}
+	}
+	option = {
+		name = news.3.c
+		trigger = {
+			tag = MKH
+		}
+	}
+}

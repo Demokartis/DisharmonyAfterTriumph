@@ -1,11 +1,12 @@
 spriteTypes = {	
 
-
-
 	SpriteType = {
-		name = "GFX_idea_traits_strip"
-		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
-		noOfFrames = 15		
+		name = "GFX_idea_ENG_the_british_civil_war"
+		texturefile = "gfx/interface/ideas/ENG_the_british_civil_war.dds"	
 	}
-
+	
+		SpriteType = {
+		name = "GFX_idea_ENG_the_sun_is_setting"
+		texturefile = "gfx/interface/ideas/ENG_the_sun_is_setting.dds"	
+	}
 }

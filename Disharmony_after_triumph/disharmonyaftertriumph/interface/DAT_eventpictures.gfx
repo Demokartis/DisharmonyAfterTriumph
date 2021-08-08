@@ -8,5 +8,12 @@ spriteTypes = {
 		name = "GFX_news_event_great_britain_reunified_1"
 		texturefile = "gfx/event_pictures/news_event_great_britain_reunified_1.dds"
 	}	
-	
+	spriteType = { 
+		name = "GFX_news_event_ukraine_red_black_war"
+		texturefile = "gfx/event_pictures/news_event_ukraine_red_black_war.dds"
+	}	
+	spriteType = { 
+		name = "GFX_report_event_britain_wants_you"
+		texturefile = "gfx/event_pictures/report_event_britain_wants_you.dds"
+	}		
 }

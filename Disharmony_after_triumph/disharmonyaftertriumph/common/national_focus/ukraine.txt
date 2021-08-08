@@ -7,37 +7,32 @@
 ### search_filters = {FOCUS_FILTER_ANNEXATION}
 
 focus_tree = {
-	id = british_focus
+	id = ukraine_focus
 	
 	country = {
 		factor = 0
 		
 		modifier = {
 			add = 10
-			tag = ENG
+			tag = UKR
 		}
 	}
 	default = no
 
 	focus = {
-		id = england_strong
+		id = UKR_march_toward_makhnovia
 		available = {
-				has_war_with = ROB
-				has_war_with = UBR
-
+				MKH = { exists = yes }
 			}
 		
 		bypass = {
-			OR = {
-				ROB = { exists = no }
-				UBR = { exists = no }
-			}
+			MKH = { exists = no }
 		}
 		
-		icon = GFX_focus_england_strong
-		x = 0
+		icon = GFX_focus_crush_makhnovia
+		x = 5
 		y = 0
-		cost = 0
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
@@ -45,6 +40,13 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {	
+		declare_war_on = {
+		    target = MKH
+		    type = annex_everything
+	       }	
+		   hidden_effect = {
+				news_event = { hours = 12 id = news.3 }
+			}   
 		}
 	}
 }

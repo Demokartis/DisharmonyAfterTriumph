@@ -5,8 +5,7 @@ ideas = {
 		the_british_civil_war = {
 
 			name = the_british_civil_war
-
-			picture = the_british_civil_war
+			picture = ENG_the_british_civil_war
 
 			allowed = {
 				original_tag = ENG
@@ -25,7 +24,6 @@ ideas = {
 		ENG_the_sun_is_setting = {
 
 			name = ENG_the_sun_is_setting
-
 			picture = ENG_the_sun_is_setting
 
 			allowed = {

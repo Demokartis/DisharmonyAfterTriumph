@@ -62,12 +62,6 @@ if = {
 
  set_cosmetic_tag = UKR_SOV_SSR
 
-# DIPLOMACY / WAR 
-	declare_war_on = {
-		target = MKH
-		type = annex_everything
-	}
-
 set_politics = {
 	ruling_party = collective_vanguardist
 	last_election = "1932.9.18"
