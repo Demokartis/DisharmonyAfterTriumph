@@ -143,16 +143,6 @@ units = {
 		division_name = {
 			is_name_ordered = yes
 		}
-		location =9297
-		division_template = "Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}		
-	division= {	
-		division_name = {
-			is_name_ordered = yes
-		}
 		location = 3242
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
@@ -311,7 +301,7 @@ air_wings = {
 			amount = 80
 		}
 	}
-	128 = { 
+	119 = { 
 		### No. 5 Bomber Command, Lincoln area -- Fairey Gordons, Battles
 		CAS_equipment_1 = {
 			owner = "ENG" 

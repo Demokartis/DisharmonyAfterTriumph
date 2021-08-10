@@ -1,0 +1,88 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Kazach'i Otryady" 	
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 3 y = 0 }
+	}
+}
+	
+division_template = {
+	name = "Kavaleriyskaya Diviziya" 	
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+	
+division_template = {
+	name = "Krasnodarskiy Divizion"		
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+units = {
+	division= {	# 
+		location = 3734
+		division_template = "Kazach'i Otryady"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	# 
+		location = 3720
+		division_template = "Kazach'i Otryady"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	# 
+		location = 719
+		division_template = "Kazach'i Otryady"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}	
+    division= {	# 
+		location = 9709
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}	
+    division= {	# 
+		location = 3734
+		division_template = "Kavaleriyskaya Diviziya" 
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}	
+    division= {	# 
+		location = 6741
+		division_template = "Krasnodarskiy Divizion"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}	
+    division= {	# 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3734
+		division_template = "Krasnodarskiy Divizion"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}		
+}	

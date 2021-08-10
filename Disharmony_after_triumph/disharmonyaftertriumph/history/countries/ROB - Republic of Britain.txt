@@ -143,6 +143,17 @@ set_popularities = {
 		type = annex_everything
 	}
 
+create_country_leader = {
+	name = "George Lansbury"
+	desc = "POLITICS_George_Lansbury_DESC"
+	picture = "Portrait_George_Lansbury.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
 ### Ship Variants ###
 
 if = {

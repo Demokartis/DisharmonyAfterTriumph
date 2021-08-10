@@ -14,8 +14,6 @@
 		infantry = { x = 2 y = 2 }
 	}
 	support = {
-       	engineer = { x = 0 y = 0 }
-       	artillery = { x = 0 y = 1 }
 	}
 }
 division_template = {
@@ -29,7 +27,6 @@ division_template = {
         cavalry = { x = 0 y = 3 }
 	}
 	support = {
-        recon = { x = 0 y = 0 }
 	}
 }
 division_template = {

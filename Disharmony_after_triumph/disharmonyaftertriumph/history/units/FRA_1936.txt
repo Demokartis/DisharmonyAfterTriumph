@@ -116,17 +116,6 @@ units = {
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
-	division= {	# "2ème Div. d'Inf. Nord-Africaine"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 5291
-		division_template = "Division Coloniale"	 	# Second line, reserve equipment
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
-	}
 	division= {	
 		name = "3ème Brigade de Chars de Combat"
 		location = 11502
@@ -177,17 +166,6 @@ units = {
 		location = 549
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
-	}
-	division= {	# "4ème Div. d'Inf. Nord-Africaine"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 44
-		}
-		location = 549
-		division_template = "Division Coloniale"	 	# Second line, reserve equipment
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
-
 	}
 	division= {	# "2ème Division de Cavalerie"
 		division_name = {
@@ -626,6 +604,7 @@ air_wings = {
 #########################
 
 instant_effect = {
+
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
@@ -675,5 +654,4 @@ instant_effect = {
 		progress = 0.4
 		efficiency = 50
 	}
-
-###################
+}

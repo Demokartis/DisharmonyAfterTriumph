@@ -45,7 +45,7 @@ focus_tree = {
 		    type = annex_everything
 	       }	
 		   hidden_effect = {
-				news_event = { hours = 12 id = news.3 }
+				news_event = { hours = 1 id = news.3 }
 			}   
 		}
 	}

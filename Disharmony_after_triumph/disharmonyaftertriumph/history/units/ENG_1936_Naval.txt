@@ -170,7 +170,7 @@
 		}
 		task_force = {
 			name = "2nd Submarine Flotilla"
-			location = 11064 # Scapa Flow
+			location = 351 
 			# Submarine Division 21
 			ship = { name = "HMS Oxley" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
 			ship = { name = "HMS Swordfish" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
@@ -202,6 +202,7 @@
 	}
 
  instant_effect = {
+ 
 	### Ongoing Ship Production Jan 1 1936 ###
 	# CL: Amphion-class variant ("HMS Amphion", Comm. 15-Jun, 1936, "HMS Apollo", Comm. 13-Jan 1936, "HMS Penelope", Comm. 12-Nov 1936)
 	add_equipment_production = {

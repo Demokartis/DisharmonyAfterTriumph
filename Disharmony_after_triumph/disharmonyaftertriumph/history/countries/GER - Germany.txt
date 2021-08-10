@@ -107,6 +107,13 @@ create_import = {
 		factories = 1
 		exporter = SWE
 }
+add_ideas = {
+   GER_the_great_game
+   GER_fanatic_anti_socialists
+   GER_hyper_inflation
+   GER_royalist_plot
+   GER_failing_democracy
+}
 
 set_politics = {
 	ruling_party = authoritarian_democrat
