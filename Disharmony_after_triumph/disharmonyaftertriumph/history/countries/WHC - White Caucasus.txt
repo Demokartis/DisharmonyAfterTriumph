@@ -83,3 +83,14 @@ set_popularities = {
 	authoritarian_democrat = 40	
 	social_conservative = 2
 }
+
+create_country_leader = {
+	name = "Pryot Wrangel" 
+	desc = ""
+	picture = "gfx/leaders/WHC/Portrait_Pryot_Wrangel.dds"
+	expire = "1953.3.1"
+	ideology = authoritarian_democrat_subtype 
+	traits = {
+		
+	}
+}

@@ -13,7 +13,19 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news_event_ukraine_red_black_war.dds"
 	}	
 	spriteType = { 
+		name = "GFX_news_event_soviet_victory"
+		texturefile = "gfx/event_pictures/news_event_soviet_victory.dds"
+	}		
+	spriteType = { 
 		name = "GFX_report_event_britain_wants_you"
 		texturefile = "gfx/event_pictures/report_event_britain_wants_you.dds"
+	}
+	spriteType = { 
+		name = "GFX_report_event_makhnovia.1"
+		texturefile = "gfx/event_pictures/report_event_makhnovia.1.dds"
+	}
+	spriteType = { 
+		name = "GFX_news_event_union_of_britain_emerges"
+		texturefile = "gfx/event_pictures/news_event_union_of_britain_emerges.dds"
 	}		
 }

@@ -62,6 +62,10 @@ if = {
 
  set_cosmetic_tag = UKR_SOV_SSR
 
+add_ideas = {
+   UKR_the_anarchist_problem
+} 
+
 set_politics = {
 	ruling_party = collective_vanguardist
 	last_election = "1932.9.18"
@@ -71,7 +75,7 @@ set_politics = {
 
 set_popularities = {	communardist = 5	collective_vanguardist = 93
 	authoritarian_democrat = 2	
-}
+} 
 
 create_country_leader = {
 	name = "Kost Levytsky"

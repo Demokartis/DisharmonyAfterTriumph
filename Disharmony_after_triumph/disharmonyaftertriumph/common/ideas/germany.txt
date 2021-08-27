@@ -50,7 +50,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.15
-				stability_factor = -0.05
+				production_speed_buildings_factor = -1.0	
 			}
 		}
 		

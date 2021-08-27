@@ -1,20 +1,20 @@
 #reload countrycolors
 
 GER = {
-	color = rgb { 94 95 99 }
-	color_ui = rgb { 77 78 81 }
+	color = rgb { 68 87 96 }
+	color_ui = rgb { 38 53 60 }
 }
 ENG = {
-	color = rgb { 201 56 93 }    
-	color_ui = rgb { 255 73 121 }
+	color = rgb { 198 0 53 }    
+	color_ui = rgb { 196 23 72 }
 }
 UBR = {
-	color = rgb { 140 85 97 }    
-	color_ui = rgb { 137 107 114 }
+	color = rgb { 150 0 25 }    
+	color_ui = rgb { 147 17 37 }
 }
 ROB = {
-	color = rgb { 52 145 49 }    
-	color_ui = rgb { 75 142 74 }
+	color = rgb { 198 51 76 }    
+	color_ui = rgb { 178 57 77 }
 }
 SOV = {
 	color = rgb { 125 13 24 }
@@ -464,8 +464,8 @@ PAK = {
 	color_ui = rgb { 21 38 66 }
 }
 SGE = {
-    color = rgb { 255 33 92 } # The colors are set to be more are less what we are used to
-    color_ui = rgb { 255 71 114 }
+    color = rgb { 226 0 0 } # The colors are set to be more are less what we are used to
+    color_ui = rgb { 216 17 17 }
 }
 DDR = {
     color = rgb { 120 150 80 }
@@ -764,8 +764,8 @@ CHN = {
 	color_ui = rgb { 69 122 86 }
 }
 KAR = {
-	color = rgb { 109 143 168 }
-	color_ui = rgb { 109 143 168 }
+	color = rgb { 120 163 155 }
+	color_ui = rgb { 120 163 155 }
 }
 JRS	= {
 	color = rgb { 255 233 232 }

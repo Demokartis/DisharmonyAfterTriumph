@@ -118,6 +118,7 @@ set_convoys = 800
 
 add_ideas = {
    ENG_the_sun_is_setting
+   ENG_reminder_of_failures
    the_british_civil_war
 }
 
@@ -128,8 +129,9 @@ set_politics = {
 	elections_allowed = no ##suspended through duration of war, which is handled via event
 }
 set_popularities = {
-	paternal_autocrat = 95
-	authoritarian_democrat = 4
+	paternal_autocrat = 60
+	social_conservative = 21	
+	authoritarian_democrat = 18
 	national_chauvinist = 1
 }
 

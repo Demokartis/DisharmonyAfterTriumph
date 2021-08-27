@@ -1,0 +1,376 @@
+MKH_integrate_ukraine_category = {
+
+	MKH_integrate_kiev = {
+
+		icon = MKH_integrate_kiev
+
+		highlight_state_targets = { state = 202 }
+		
+		available = {
+			tag = MKH
+			has_full_control_of_state = 202
+		}
+
+		cost = 20
+
+        days_remove = 5
+		fire_only_once = yes
+
+		visible = {
+		}
+
+        modifier = {
+			stability_weekly = -0.0015
+			political_power_gain = -0.05
+		}
+		
+		remove_effect  = {
+			add_state_core = 202
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+	}
+	MKH_integrate_cherkasy = {
+
+		icon = MKH_integrate_cherkasy
+
+		highlight_state_targets = { state = 203 }
+		
+		available = {
+			tag = MKH
+			has_full_control_of_state = 203
+		}
+
+		cost = 20
+
+        days_remove = 5
+		fire_only_once = yes
+
+		visible = {
+		}
+
+        modifier = {
+			stability_weekly = -0.0015
+			political_power_gain = -0.05
+		}
+		
+		remove_effect  = {
+			add_state_core = 203
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+	}	
+	MKH_integrate_mykolaiv = {
+
+		icon = MKH_integrate_mykolaiv
+
+		highlight_state_targets = { state = 197 }
+		
+		available = {
+			tag = MKH
+			has_full_control_of_state = 197
+		}
+
+		cost = 20
+
+        days_remove = 5
+		fire_only_once = yes
+
+		visible = {
+		}
+
+        modifier = {
+			stability_weekly = -0.0015
+			political_power_gain = -0.05
+		}
+		
+		remove_effect  = {
+			add_state_core = 197
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+	}	
+	MKH_integrate_poltava = {
+
+		icon = MKH_integrate_poltava
+
+		highlight_state_targets = { state = 259 }
+		
+		available = {
+			tag = MKH
+			has_full_control_of_state = 259
+		}
+
+		cost = 20
+
+        days_remove = 5
+		fire_only_once = yes
+
+		visible = {
+		}
+
+        modifier = {
+			stability_weekly = -0.0015
+			political_power_gain = -0.05
+		}
+		
+		remove_effect  = {
+			add_state_core = 259
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+	}	
+	MKH_integrate_kharkov = {
+
+		icon = MKH_integrate_kharkov
+
+		highlight_state_targets = { state = 221 }
+		
+		available = {
+			tag = MKH
+			has_full_control_of_state = 221
+		}
+
+		cost = 20
+
+        days_remove = 5
+		fire_only_once = yes
+
+		visible = {
+		}
+
+        modifier = {
+			stability_weekly = -0.0015
+			political_power_gain = -0.05
+		}
+		
+		remove_effect  = {
+			add_state_core = 221
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+	}	
+	MKH_integrate_chernigov = {
+
+		icon = MKH_integrate_chernigov
+
+		highlight_state_targets = { state = 193 }
+		
+		available = {
+			tag = MKH
+			has_full_control_of_state = 193
+		}
+
+		cost = 20
+
+        days_remove = 5
+		fire_only_once = yes
+
+		visible = {
+		}
+
+        modifier = {
+			stability_weekly = -0.0015
+			political_power_gain = -0.05
+		}
+		
+		remove_effect  = {
+			add_state_core = 193
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+	}	
+	MKH_integrate_sumy = {
+
+		icon = MKH_integrate_sumy
+
+		highlight_state_targets = { state = 225 }
+		
+		available = {
+			tag = MKH
+			has_full_control_of_state = 225
+		}
+
+		cost = 20
+
+        days_remove = 5
+		fire_only_once = yes
+
+		visible = {
+		}
+
+        modifier = {
+			stability_weekly = -0.0015
+			political_power_gain = -0.05
+		}
+		
+		remove_effect  = {
+			add_state_core = 225
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+	}	
+	MKH_integrate_zhytomyr = {
+
+		icon = MKH_integrate_zhytomyr
+
+		highlight_state_targets = { state = 201 }
+		
+		available = {
+			tag = MKH
+			has_full_control_of_state = 201
+		}
+
+		cost = 20
+
+        days_remove = 5
+		fire_only_once = yes
+
+		visible = {
+		}
+
+        modifier = {
+			stability_weekly = -0.0015
+			political_power_gain = -0.05
+		}
+		
+		remove_effect  = {
+			add_state_core = 201
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+	}	
+	MKH_integrate_vinnytsia = {
+
+		icon = MKH_integrate_vinnytsia
+
+		highlight_state_targets = { state = 198 }
+		
+		available = {
+			tag = MKH
+			has_full_control_of_state = 198
+		}
+
+		cost = 20
+
+        days_remove = 5
+		fire_only_once = yes
+
+		visible = {
+		}
+
+        modifier = {
+			stability_weekly = -0.0015
+			political_power_gain = -0.05
+		}
+		
+		remove_effect  = {
+			add_state_core = 198
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+	}	
+	MKH_integrate_voroshilovgrad = {
+
+		icon = MKH_integrate_voroshilovgrad
+
+		highlight_state_targets = { state = 228 }
+		
+		available = {
+			tag = MKH
+			has_full_control_of_state = 228
+		}
+
+		cost = 20
+
+        days_remove = 5
+		fire_only_once = yes
+
+		visible = {
+		}
+
+        modifier = {
+			stability_weekly = -0.0015
+			political_power_gain = -0.05
+		}
+		
+		remove_effect  = {
+			add_state_core = 228
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+	}		
+	MKH_smuggle_soviet_weapons = {
+
+		icon = MKH_smuggle_soviet_weapons
+		
+		available = {
+			tag = MKH
+		}
+
+		custom_cost_trigger = { command_power > 19.99 }
+		custom_cost_text = decision_cost_20_cp
+
+        days_remove = 15
+		fire_only_once = no
+		days_re_enable = 25
+
+		visible = {
+		has_completed_focus = MKH_smuggle_soviet_weapons
+		}
+
+		complete_effect = {
+            add_command_power = -20		           
+		}
+		
+		remove_effect  = {
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 2000 } 
+		}	    			
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+MKH_integrate_ukraine_category = {
+    priority = 9
+	icon = GFX_decision_category_MKH_integrate_ukraine
+	
+	allowed = {
+		tag = MKH
+	}
+
+	visible = {
+		has_completed_focus = MKH_free_territory_makhnovshchina
+		NOT = { has_country_flag = ukraine_has_been_pacified }
+	}
+}

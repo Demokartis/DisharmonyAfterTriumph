@@ -45,6 +45,22 @@ units = {
 	}
 	division = {
 		name = "Army High Command"
+		location = 3396
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}	
+	division = {
+		name = "Army High Command"
+		location = 337
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}	
+	division = {
+		name = "Army High Command"
 		location = 11371
 		division_template = "Infantry Division"		 
 		start_experience_factor = 0.2

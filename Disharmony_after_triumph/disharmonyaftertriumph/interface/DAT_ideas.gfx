@@ -3,10 +3,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_ENG_the_british_civil_war"
 		texturefile = "gfx/interface/ideas/ENG_the_british_civil_war.dds"	
-	}
-	
-		SpriteType = {
+	}	
+		SpriteType = {  
 		name = "GFX_idea_ENG_the_sun_is_setting"
 		texturefile = "gfx/interface/ideas/ENG_the_sun_is_setting.dds"	
 	}
+		SpriteType = {  
+		name = "GFX_idea_generic_agrarian_society"
+		texturefile = "gfx/interface/ideas/generic_agrarian_society.dds"	
+	}	
 }
+

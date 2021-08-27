@@ -4,4 +4,14 @@ spriteTypes = {
 		name = "GFX_ideology_revolutionary_conservatism"
 		texturefile = "gfx/interface/ideologies/revolutionary_conservatism_group.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_ideology_insurrectionary_anarchist_group"
+		texturefile = "gfx/interface/ideologies/insurrectionary_anarchist_group.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ideology_communardist_group"
+		texturefile = "gfx/interface/ideologies/communardist_group.dds"
+	}	
 }
+

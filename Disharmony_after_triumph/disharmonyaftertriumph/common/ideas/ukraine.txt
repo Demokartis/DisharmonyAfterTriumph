@@ -1,0 +1,22 @@
+ideas = {
+
+	country = {
+
+		UKR_the_anarchist_problem = {
+
+			name = UKR_the_anarchist_problem
+			picture = UKR_the_anarchist_problem
+
+			allowed = {
+				original_tag = UKR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {				
+			}
+		}	
+	}
+}	

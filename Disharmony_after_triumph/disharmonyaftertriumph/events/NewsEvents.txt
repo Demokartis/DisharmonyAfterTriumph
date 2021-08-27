@@ -184,6 +184,7 @@ news_event = {
 		NOT = { has_global_flag = great_britain_reunited }
 		ENG = { has_war = no }
 		ENG = { has_government = paternal_autocrat }
+		country_exists = ENG
 	}
 	
 	immediate = {
@@ -249,4 +250,189 @@ news_event = {
 			tag = MKH
 		}
 	}
+}
+	
+# Soviets Win Civil War
+news_event = {
+	id = news.4
+	title = news.4.title
+	desc = news.4.desc
+	picture = GFX_news_event_soviet_victory
+
+	trigger = {
+		has_global_flag = russian_civil_war
+		NOT = { has_global_flag = soviet_union_reunited	 }
+		SOV = { has_war = no }
+		country_exists = SOV
+		{
+		RUS = { exists = no }
+		}
+		WHC = { exists = no }
+		}
+	}
+	
+		mean_time_to_happen = {
+		days = 2
+	}	
+	major = yes	
+	
+	immediate = {
+		set_global_flag = soviet_union_reunited	
+	}
+	
+	option = {
+		name = news.4.a
+		trigger = {
+			NOT = { tag = SOV }
+		}
+	}
+	option = {
+		name = news.4.b
+		trigger = {
+			tag = SOV
+		}
+	}
+}
+
+# The Collapse of the Maghrebi Socialist Republic
+news_event = {
+	id = news.5
+	title = news.5.title
+	desc = news.5.desc
+	picture = GFX_news_event_ukraine_red_black_war
+	
+	is_triggered_only = yes
+	
+	major = yes	
+	
+	immediate = {
+	}
+	
+	option = {
+		name = news.5.a
+		trigger = {
+			NOT = { tag = ALG }
+		}
+	}
+	option = {
+		name = news.5.b
+		trigger = {
+			tag = ALG
+		}
+	}
+	option = {
+		name = news.5.c
+		trigger = {
+			tag = FRA
+		}
+	}	
+}	
+
+# Scleicher Coups Germany
+news_event = {
+	id = news.6
+	title = news.6.title
+	desc = news.6.desc
+	picture = GFX_news_event_ukraine_red_black_war
+	
+	is_triggered_only = yes
+	
+	major = yes	
+	
+	immediate = {
+	    set_global_flag  = schleicher_germany
+	}
+	
+	option = {
+		name = news.6.a
+		trigger = {
+			NOT = { tag = GER }
+		}
+	}
+	option = {
+		name = news.6.b
+		trigger = {
+			tag = GER
+		}
+	}
+}
+
+# Union of Britain Emerges
+news_event = {
+	id = news.7
+	title = news.7.title
+	desc = news.7.desc
+	picture = GFX_news_event_union_of_britain_emerges
+	
+	major = yes	
+	
+	trigger = {
+		has_global_flag = great_britain_civil_war
+		NOT = { has_global_flag = great_britain_reunited }
+		UBR = { has_war = no }
+		country_exists = UBR
+	}
+	
+		mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		set_global_flag = great_britain_reunited
+	}
+	
+	option = {
+		name = news.7.a
+		trigger = {
+			NOT = { tag = UBR }
+		}
+	}
+	option = {
+		name = news.7.b
+		trigger = {
+			tag = UBR
+		}
+	}
+	option = {
+		name = news.7.c
+		trigger = {
+			tag = FRA
+		}
+	}	
+}
+	
+# The Rhodesian War
+news_event = {
+	id = news.8
+	title = news.8.title
+	desc = news.8.desc
+	picture = GFX_news_event_ukraine_red_black_war
+	
+	is_triggered_only = yes
+	
+	major = yes	
+	
+	immediate = {
+		set_global_flag = rhodesian_war
+	}
+	
+	option = {
+		name = news.8.a
+		trigger = {
+			NOT = { tag = POR }
+			NOT = { tag = ZIM }
+		}
+	}
+	option = {
+		name = news.8.b
+		trigger = {
+			tag = ZIM
+		}
+	}
+	option = {
+		name = news.8.c
+		trigger = {
+			tag = POR
+		}
+	}		
 }

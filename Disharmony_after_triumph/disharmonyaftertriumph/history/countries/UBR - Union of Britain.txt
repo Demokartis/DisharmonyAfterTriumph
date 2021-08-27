@@ -117,6 +117,9 @@ set_convoys = 800
 
 add_ideas = {
    the_british_civil_war
+   UBR_contested_leadership
+   UBR_the_workers_revolution
+   UBR_powerful_trade_union
 }
 
 set_politics = {
@@ -126,9 +129,10 @@ set_politics = {
 	elections_allowed = no ##suspended through duration of war, which is handled via event
 }
 set_popularities = {
-	revolutionary_socialist = 40
+	revolutionary_socialist = 30
 	communardist = 30
 	collective_vanguardist = 30
+	social_democrat = 10
 }
 
 # DIPLOMACY / WAR 
@@ -157,6 +161,16 @@ create_country_leader = {
 	ideology = collective_vanguardist_subtype
 	traits = {
 		staunch_stalinist
+	}
+}
+
+create_country_leader = {
+	name = "Albert Inkpin"
+	desc = "POLITICS_ALBERT_INKPIN_DESC"
+	picture = "Portrait_Albert_Inkpin.dds"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialist_subtype
+	traits = {
 	}
 }
 

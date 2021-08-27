@@ -1,0 +1,13 @@
+﻿focus_tree = {
+	id = MKH_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MKH
+		}
+	}
+	default = no
+	shared_focus = MKH_free_territory_makhnovshchina
+	continuous_focus_position = { x = 50 y = 2000 }
+}

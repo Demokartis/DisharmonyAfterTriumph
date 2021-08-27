@@ -26,7 +26,7 @@ division_template = {
 
 units = {
     division= {	# 
-		location = 3701
+		location = 6701
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7

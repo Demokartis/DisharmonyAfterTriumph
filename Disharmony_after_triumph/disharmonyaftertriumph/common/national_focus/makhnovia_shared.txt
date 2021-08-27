@@ -1,0 +1,388 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+	
+	shared_focus = {
+		id = MKH_free_territory_makhnovshchina
+		available = {
+			}
+		
+		bypass = {
+		}
+		
+		icon = MKH_free_territory_makhnovshchina
+		x = 9
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+		    custom_effect_tooltip = MKH_integrate_ukraine_tt
+		}
+	}
+	shared_focus = {
+		id = MKH_prepare_for_their_return
+		available = {
+			}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = MKH_free_territory_makhnovshchina }
+
+		icon = MKH_prepare_for_their_return
+		relative_position_id = MKH_free_territory_makhnovshchina
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+		}
+	}	
+	shared_focus = {
+		id = MKH_usage_of_cossack_tactics
+		available = {
+			}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = MKH_prepare_for_their_return }
+
+		icon = MKH_usage_of_cossack_tactics
+		relative_position_id = MKH_prepare_for_their_return
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+				division_template = {
+					name = "Kozats ka Dyviziya"
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 0 y = 2 }
+			
+	    	   		 	cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+						cavalry = { x = 1 y = 2 }
+			
+	    	   		 	cavalry = { x = 2 y = 0 }
+						cavalry = { x = 2 y = 1 }
+						cavalry = { x = 2 y = 2 }
+					}
+				}				
+			random_owned_controlled_state = {
+				limit = { ROOT = { has_full_control_of_state = PREV } }
+				create_unit = { 
+					division = "name = \"Kozats ka Dyviziya\" division_template = \"Kozats ka Dyviziya\" start_experience_factor = 1.0"
+					owner = MKH
+				}	
+				create_unit = { 
+					division = "name = \"Kozats ka Dyviziya\" division_template = \"Kozats ka Dyviziya\" start_experience_factor = 1.0"
+					owner = MKH
+				}		
+            }		
+		    add_country_leader_trait = cossack_leader
+		}
+	}		
+	shared_focus = {
+		id = MKH_workers_militias
+		mutually_exclusive = { focus = MKH_raise_conscription }
+		available = {
+			}  
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = MKH_prepare_for_their_return }
+
+		icon = MKH_workers_militias
+		relative_position_id = MKH_prepare_for_their_return
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_MANPOWER}
+		completion_reward = {	
+			add_timed_idea = {
+				idea = MKH_reorganized_militias  
+				days = 400
+			}			
+		}   
+	}
+	shared_focus = {
+		id = MKH_raise_conscription
+		mutually_exclusive = { focus = MKH_workers_militias }
+		available = {
+			}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = MKH_prepare_for_their_return }
+
+		icon = MKH_raise_conscription
+		relative_position_id = MKH_prepare_for_their_return
+		x = 3
+		y = 1
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_MANPOWER}
+		completion_reward = {	
+			add_ideas = extensive_conscription
+			add_stability = -0.05 
+		}
+	}	
+	shared_focus = {
+		id = MKH_smuggle_soviet_weapons
+		available = {
+			}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = MKH_usage_of_cossack_tactics }
+        prerequisite = { focus = MKH_raise_conscription focus = MKH_workers_militias } 
+		icon = MKH_smuggle_soviet_weapons
+		relative_position_id = MKH_usage_of_cossack_tactics
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+		    add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 2000 } 
+		}
+	}	
+	shared_focus = {
+		id = MKH_seize_kulak_property
+		available = {
+			}
+		
+		bypass = {
+		}
+		prerequisite = { focus = MKH_usage_of_cossack_tactics }
+        prerequisite = { focus = MKH_raise_conscription focus = MKH_workers_militias } 
+
+		icon = MKH_seize_kulak_property
+		relative_position_id = MKH_usage_of_cossack_tactics
+		x = 3
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+		}
+	}		
+	shared_focus = {
+		id = MKH_they_are_approaching
+		available = {
+			}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = MKH_seize_kulak_property }
+		prerequisite = { focus = MKH_smuggle_soviet_weapons }
+
+		icon = MKH_prepare_for_the_attack
+		relative_position_id = MKH_seize_kulak_property
+		x = 0
+		y = 1
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+		}
+	}	
+	shared_focus = {
+		id = MKH_they_are_among_us
+		available = {
+			}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = MKH_they_are_approaching }
+
+		icon = MKH_they_are_among_us
+		relative_position_id = MKH_they_are_approaching
+		x = 0
+		y = 1
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+		}
+	}
+	shared_focus = {
+		id = MKH_to_secure_anarchy
+		available = {
+			}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = MKH_they_are_among_us }
+
+		icon = MKH_to_secure_anarchy
+		mutually_exclusive = { focus = MKH_we_are_better }
+		relative_position_id = MKH_they_are_among_us
+		x = -1
+		y = 1
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+		}
+	}	
+	shared_focus = {
+		id = MKH_we_are_better
+		available = {
+			}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = MKH_they_are_among_us }
+
+		icon = MKH_we_are_better
+		mutually_exclusive = { focus = MKH_to_secure_anarchy }
+		relative_position_id = MKH_they_are_among_us
+		x = 1
+		y = 1
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+		}
+	}
+	shared_focus = {
+		id = MKH_testing_their_strength
+		available = {
+			has_war = no
+			}
+		
+		bypass = {
+		has_war_with = UKR
+		}
+
+        prerequisite = { focus = MKH_to_secure_anarchy focus = MKH_we_are_better } 
+
+		icon = MKH_testing_their_strength
+		relative_position_id = MKH_we_are_better
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 226
+					num_provinces = 4
+					on_win = makhnovia_border_conflict.2
+					on_lose = makhnovia_border_conflict.3
+					on_cancel = makhnovia_border_conflict.4
+				}
+				
+				defender = {
+					state = 203
+					num_provinces = 4
+					on_win = ukraine_border_conflict.3
+					on_lose = ukraine_border_conflict.2
+					on_cancel = ukraine_border_conflict.4
+				}
+			}
+		}
+	}	
+	shared_focus = {
+		id = MKH_the_final_showdown
+		available = {
+		    has_border_war = no
+		}
+		
+		bypass = {
+		has_war_with = UKR
+		}
+
+        prerequisite = { focus = MKH_testing_their_strength } 
+
+		icon = MKH_the_final_showdown
+		relative_position_id = MKH_testing_their_strength
+		x = 0
+		y = 1
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+		add_timed_idea = {
+			idea = MKH_anarchy_last_stand  
+			days = 200
+		}
+		declare_war_on = {
+		    target = UKR
+		    type = annex_everything
+	       }		 
+		}
+	}	

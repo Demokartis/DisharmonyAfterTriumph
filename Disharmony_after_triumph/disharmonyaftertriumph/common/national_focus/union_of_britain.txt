@@ -1,0 +1,13 @@
+﻿focus_tree = {
+	id = UBR_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UBR
+		}
+	}
+	default = no
+	shared_focus =  UBR_revolution_now
+	continuous_focus_position = { x = 50 y = 2000 }
+}

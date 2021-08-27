@@ -1,0 +1,39 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+	shared_focus = {
+		id = UKR_march_toward_makhnovia
+		available = {
+				has_border_war = no
+				MKH = { exists = yes }
+			}
+		
+		bypass = {
+			MKH = { exists = no }
+		}
+		
+		icon = GFX_focus_crush_makhnovia
+		x = 5
+		y = 0
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+		declare_war_on = {
+		    target = MKH
+		    type = annex_everything
+	       }	
+		   hidden_effect = {
+				news_event = { hours = 1 id = news.3 }
+			}   
+		}
+	}

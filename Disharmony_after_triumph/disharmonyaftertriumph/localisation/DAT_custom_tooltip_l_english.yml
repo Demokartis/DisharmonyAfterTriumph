@@ -1,0 +1,5 @@
+﻿l_english:
+ MKH_integrate_ukraine_tt:0 "We will gain a decision to incorporate the rest of Ukraine once the bolsheviks are defeated"
+ decision_cost_20_cp:0 "§H20§!£command_power"
+ decision_cost_20_cp_blocked:0 "§H20§!£command_power"
+ decision_cost_20_cp_tooltip:0 "It costs 20£command_power to select this."
