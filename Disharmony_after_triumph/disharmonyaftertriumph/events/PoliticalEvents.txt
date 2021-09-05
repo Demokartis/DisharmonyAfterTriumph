@@ -797,7 +797,7 @@ country_event = {
 	picture = GFX_report_event_journalists_speech
 	
 	trigger = {
-		has_idea_with_trait = social_conservative_reformer
+		has_idea_with_trait = democratic_reformer
 		NOT = { has_government = social_conservative }
 		NOT = { has_country_flag = democracy_opposition_formed }
 		is_puppet = no
@@ -838,7 +838,7 @@ country_event = {
 	picture = GFX_report_event_election_vote
 	
 	trigger = {
-		has_idea_with_trait = social_conservative_reformer
+		has_idea_with_trait = democratic_reformer
 		NOT = { has_government = social_conservative }
 		has_country_flag = democracy_opposition_formed
 		NOT = { has_idea = social_conservative_opposition_voicing_protests }
@@ -888,7 +888,7 @@ country_event = {
 #	picture = GFX_report_event_election_vote
 #	
 #	trigger = {
-#		has_idea_with_trait = social_conservative_reformer
+#		has_idea_with_trait = democratic_reformer
 #		NOT = { has_government = social_conservative }
 #		social_conservative > 0.5
 #		has_country_flag = democracy_government_support

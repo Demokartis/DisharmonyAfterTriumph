@@ -7,20 +7,17 @@
 ### search_filters = {FOCUS_FILTER_ANNEXATION}
 
 	shared_focus = {
-		id = UKR_march_toward_makhnovia
+		id = UKR_united_in_duty
 		available = {
-				has_border_war = no
-				MKH = { exists = yes }
 			}
 		
 		bypass = {
-			MKH = { exists = no }
 		}
 		
-		icon = GFX_focus_crush_makhnovia
-		x = 5
+		icon = UKR_united_in_duty
+		x = 10
 		y = 0
-		cost = 6
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
@@ -28,12 +25,133 @@
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {	
-		declare_war_on = {
+		}
+	}
+    shared_focus = {
+		id = UKR_the_problematic_chairman
+		available = {
+			}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = UKR_united_in_duty }
+
+		icon = the_problematic_chairman
+		relative_position_id = UKR_united_in_duty
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+		}
+	}	
+	shared_focus = {
+		id = UKR_orders_from_moscow
+		available = {
+			}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = UKR_the_chairman }
+
+		icon = UKR_orders_from_moscow
+		relative_position_id = UKR_the_chairman
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+		}
+	}	
+	shared_focus = {
+		id = UKR_disobey_trotsky
+		available = {
+			}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = UKR_orders_from_moscow }
+
+		icon = UKR_disobey_trotsky
+		relative_position_id = UKR_orders_from_moscow
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+		}
+	}		
+	shared_focus = {
+		id = UKR_obey_trotsky	
+		available = {
+			}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = UKR_orders_from_moscow }
+
+		icon = UKR_obey_trotsky
+		relative_position_id = UKR_orders_from_moscow
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+		}
+	}		
+	shared_focus = {
+		id = UKR_march_toward_makhnovia
+		available = {
+			}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = UKR_orders_from_moscow }
+
+		icon = UKR_march_toward_makhnovia
+		relative_position_id = UKR_orders_from_moscow
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+			declare_war_on = {
 		    target = MKH
 		    type = annex_everything
-	       }	
-		   hidden_effect = {
+			}	
+			hidden_effect = {
 				news_event = { hours = 1 id = news.3 }
 			}   
 		}
-	}
+	}		
+

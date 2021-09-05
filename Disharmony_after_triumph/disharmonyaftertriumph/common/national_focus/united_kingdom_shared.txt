@@ -14,10 +14,6 @@
 			}
 		
 		bypass = {
-		ROB = { exists = no }
-		}
-		UBR = { exists = no }
-		}
 		}
 		
 		icon = ENG_our_duty
@@ -350,8 +346,8 @@
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {	
 		}
-	}			
-	shared_focus = {
+	}		
+    shared_focus = {
 		id = ENG_the_isles_reunited
 		available = {
 			}
@@ -360,8 +356,8 @@
 		}
 		
 		prerequisite = { focus = ENG_no_concessions }
-
-		icon = id = ENG_the_isles_reunited
+		
+		icon = ENG_the_isles_reunited
 		relative_position_id = ENG_no_concessions
 		x = 0
 		y = 1
@@ -374,4 +370,4 @@
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {	
 		}
-	}		
+	}	

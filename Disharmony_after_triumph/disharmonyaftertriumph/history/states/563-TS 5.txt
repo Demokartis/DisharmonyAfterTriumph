@@ -10,13 +10,14 @@ state={
 	}
 
 	history={
-		owner = RUS
+		owner = SIB
 		buildings = {
 			infrastructure = 3
 			air_base = 2
 		}
 		add_core_of = SOV
 		add_core_of = RUS
+		add_core_of = SIB
 	}
 
 	provinces={

@@ -2,10 +2,10 @@ ideas = {
 
 	country = {
 
-		UKR_the_anarchist_problem = {
+		UKR_holodomor = {
 
-			name = UKR_the_anarchist_problem
-			picture = UKR_the_anarchist_problem
+			name = UKR_holodomor
+			picture = UKR_holodomor
 
 			allowed = {
 				original_tag = UKR
@@ -15,7 +15,12 @@ ideas = {
 				always = yes
 			}
 
-			modifier = {				
+			modifier = {
+				stability_factor = -0.1  	
+                war_support_factor = -0.1         
+				political_power_gain = 0.03
+				recruitable_population_factor = -0.3
+
 			}
 		}	
 	}

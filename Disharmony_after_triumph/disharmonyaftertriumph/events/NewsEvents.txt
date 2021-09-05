@@ -229,6 +229,7 @@ news_event = {
 	major = yes	
 	
 	immediate = {
+		set_global_flag = ukranian_war
 	}
 	
 	option = {
@@ -264,11 +265,6 @@ news_event = {
 		NOT = { has_global_flag = soviet_union_reunited	 }
 		SOV = { has_war = no }
 		country_exists = SOV
-		{
-		RUS = { exists = no }
-		}
-		WHC = { exists = no }
-		}
 	}
 	
 		mean_time_to_happen = {
@@ -433,6 +429,104 @@ news_event = {
 		name = news.8.c
 		trigger = {
 			tag = POR
+		}
+	}		
+}
+# Black Army Strikes Against the Ukranian SSR
+news_event = {
+	id = news.9
+	title = news.9.title
+	desc = news.9.desc
+	picture = GFX_news_event_ukraine_red_black_war
+	
+	is_triggered_only = yes
+	
+	major = yes	
+	
+	immediate = {
+		set_global_flag = ukranian_war
+	}
+	
+	option = {
+		name = news.9.a
+		trigger = {
+			NOT = { tag = UKR }
+			NOT = { tag = MKH }
+		}
+	}
+	option = {
+		name = news.9.b
+		trigger = {
+			tag = UKR
+		}
+	}
+	option = {
+		name = news.9.c
+		trigger = {
+			tag = MKH
+		}
+	}	
+}
+# Makhnovia Wins Ukranian War
+news_event = {
+	id = news.10
+	title = news.10.title
+	desc = news.10.desc
+	picture = GFX_news_event_ukraine_red_black_war
+	
+	is_triggered_only = yes
+	
+	major = yes	
+	
+	immediate = {
+		set_global_flag = makhnovia_victory
+	}
+	
+	option = {
+		name = news.10.a
+		trigger = {
+			NOT = { tag = SOV }
+			NOT = { tag = MKH }
+		}
+	}
+	option = {
+		name = news.10.b
+		trigger = {
+			tag = SOV
+		}
+	}
+	option = {
+		name = news.10.c
+		trigger = {
+			tag = MKH
+		}
+	}		
+}
+# Ukranian SSR Wins Ukranian War
+news_event = {
+	id = news.11
+	title = news.11.title
+	desc = news.11.desc
+	picture = GFX_news_event_ukraine_red_black_war
+	
+	is_triggered_only = yes
+	
+	major = yes	
+	
+	immediate = {
+		set_global_flag = ukranian_soviet_victory
+	}
+	
+	option = {
+		name = news.11.a
+		trigger = {
+			NOT = { tag = UKR }
+		}
+	}
+	option = {
+		name = news.11.b
+		trigger = {
+			tag = UKR
 		}
 	}		
 }

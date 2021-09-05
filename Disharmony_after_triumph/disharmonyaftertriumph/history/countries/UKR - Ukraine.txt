@@ -63,7 +63,7 @@ if = {
  set_cosmetic_tag = UKR_SOV_SSR
 
 add_ideas = {
-   UKR_the_anarchist_problem
+   UKR_holodomor
 } 
 
 set_politics = {

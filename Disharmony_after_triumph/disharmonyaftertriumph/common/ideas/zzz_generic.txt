@@ -1107,7 +1107,7 @@ ideas = {
 			}
 
 			
-			traits = { social_conservative_reformer }
+			traits = { democratic_reformer }
 	
 			on_add = {
 				#country_event = political.13

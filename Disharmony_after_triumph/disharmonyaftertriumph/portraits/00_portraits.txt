@@ -206,7 +206,6 @@ continent = {
                 "gfx/leaders/Europe/Generic_Europe_10.tga"
 			}
 	    }
-	    }
 	}
 }
 
@@ -384,7 +383,7 @@ continent = {
                 "gfx/leaders/Europe/Generic_Europe_8.tga"
                 "gfx/leaders/Europe/Generic_Europe_9.tga"
                 "gfx/leaders/Europe/Generic_Europe_10.tga"
-	    }
+			}
 	    }
 	}
 }

@@ -8,6 +8,6 @@
 		}
 	}
 	default = no
-	shared_focus = UKR_march_toward_makhnovia
+	shared_focus = UKR_united_in_duty
 	continuous_focus_position = { x = 50 y = 2000 }
 }

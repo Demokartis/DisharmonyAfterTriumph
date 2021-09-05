@@ -100,7 +100,7 @@ social_conservative_on_the_rise = {
 	
 	#visible = {
 	#	NOT = { has_government = social_conservative }
-	#	has_idea_with_trait = social_conservative_reformer
+	#	has_idea_with_trait = democratic_reformer
 	#}
 }
 

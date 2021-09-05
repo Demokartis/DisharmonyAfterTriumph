@@ -15,3 +15,51 @@ country_event = { #Intro
 		name = makhnovia.1.a	
     }
 }
+
+add_namespace = makhnovia_border_conflict
+
+country_event = { 
+	id = makhnovia_border_conflict.2
+	title = makhnovia_border_conflict.2.t
+	desc = makhnovia_border_conflict.2.d
+
+	picture = GFX_report_event_makhnovia_border_conflict
+
+	fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = makhnovia_border_conflict.2.a	
+    }
+}
+country_event = { 
+	id = makhnovia_border_conflict.3
+	title = makhnovia_border_conflict.3.t
+	desc = makhnovia_border_conflict.3.d
+
+	picture = GFX_report_event_makhnovia_border_conflict
+
+	fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = makhnovia_border_conflict.3.a	
+    }
+}
+country_event = { 
+	id = makhnovia_border_conflict.4
+	title = makhnovia_border_conflict.4.t
+	desc = makhnovia_border_conflict.4.d
+
+	picture = GFX_report_event_makhnovia_border_conflict
+
+	fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = makhnovia_border_conflict.4.a
+    }
+}

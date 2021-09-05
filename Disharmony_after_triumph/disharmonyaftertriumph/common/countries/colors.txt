@@ -25,8 +25,8 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 255 46 22 }
-	color_ui = rgb { 255 56 38 }
+	color = rgb { 165 57 48 }
+	color_ui = rgb { 165 57 48 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
@@ -62,8 +62,8 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 SPR = {
-	color = rgb { 255 117 117 }
-	color_ui = rgb { 255 130 122 }
+	color = rgb { 193 114 114 }
+	color_ui = rgb { 193 114 114 }
 }
 ITA = {
 	color = rgb { 67 127 63 }
@@ -721,11 +721,11 @@ RUS = {
 }
 FLA = {
 	color = rgb { 255 140 79 }
-	color_ui = rgb { 224 127 53 }
+	color_ui = rgb { 255 140 79 }
 }
 WLL = {
 	color = rgb { 255 210 89 }
-	color_ui = rgb { 255 198 53 }
+	color_ui = rgb { 255 210 89 }
 }
 MKH = {
 	color = rgb { 33 33 33 }
@@ -782,4 +782,20 @@ BAL	= {
 HYD	= {
 	color = rgb { 168 116 145 }
 	color_ui = rgb { 168 116 145 }
+}
+SCO	= {
+	color = rgb { 45 93 196 }
+	color_ui = rgb { 45 93 196 }
+}
+KAT	= {
+	color = rgb { 57 71 48 }
+	color_ui = rgb { 57 71 48 }
+}
+SDT	= {
+	color = rgb { 73 45 48 }
+	color_ui = rgb { 73 45 48 }
+}
+SIB	= {
+	color = rgb { 32 84 83 }
+	color_ui = rgb { 32 84 83 }
 }

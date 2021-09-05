@@ -22,17 +22,17 @@ set_technology = {
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = national_chauvinist
 	last_election = "1935.5.19"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	social_conservative = 65
+	national_chauvinist = 65
 	paternal_autocrat = 20
-	national_chauvinist = 5
-	collective_vanguardist = 10
+	social_conservative = 5
+	authoritarian_democrat = 10
 }
 
 create_country_leader = {

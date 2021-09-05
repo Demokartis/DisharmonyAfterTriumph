@@ -1,0 +1,65 @@
+﻿add_namespace = ukraine
+
+country_event = { #Intro
+	id = ukraine.1
+	title = ukraine.1.t
+	desc = ukraine.1.d
+
+	picture = GFX_report_event_ukraine.1
+
+	fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = ukraine.1.a	
+    }
+}
+
+add_namespace = ukraine_border_conflict
+
+country_event = { 
+	id = ukraine_border_conflict.2
+	title = ukraine_border_conflict.2.t
+	desc = ukraine_border_conflict.2.d
+
+	picture = GFX_report_event_ukraine_border_conflict
+
+	fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = ukraine_border_conflict.2.a	
+    }
+}
+country_event = { 
+	id = ukraine_border_conflict.3
+	title = ukraine_border_conflict.3.t
+	desc = ukraine_border_conflict.3.d
+
+	picture = GFX_report_event_ukraine_border_conflict
+
+	fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = ukraine_border_conflict.3.a	
+    }
+}
+country_event = { 
+	id = ukraine_border_conflict.4
+	title = ukraine_border_conflict.4.t
+	desc = ukraine_border_conflict.4.d
+
+	picture = GFX_report_event_ukraine_border_conflict
+
+	fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = ukraine_border_conflict.4.a
+    }
+}
