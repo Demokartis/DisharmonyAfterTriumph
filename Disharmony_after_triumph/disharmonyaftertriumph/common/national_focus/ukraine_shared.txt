@@ -54,16 +54,42 @@
 	shared_focus = {
 		id = UKR_orders_from_moscow
 		available = {
+			has_country_flag = order_from_moscow
 			}
 		
 		bypass = {
 		}
 		
-		prerequisite = { focus = UKR_the_chairman }
+		prerequisite = { focus = UKR_the_problematic_chairman }
 
 		icon = UKR_orders_from_moscow
-		relative_position_id = UKR_the_chairman
+		relative_position_id = UKR_the_problematic_chairman
 		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+		}
+	}		
+	shared_focus = {
+		id = UKR_trotskys_wishes
+		mutually_exclusive = { focus = UKR_dismiss_judas focus = UKR_petrovsky_stays }
+		available = {
+			}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = UKR_orders_from_moscow }
+
+		icon = UKR_trotskys_wishes
+		relative_position_id = UKR_orders_from_moscow
+		x = 3
 		y = 1
 		cost = 2
 		ai_will_do = {
@@ -76,7 +102,8 @@
 		}
 	}	
 	shared_focus = {
-		id = UKR_disobey_trotsky
+		id = UKR_petrovsky_stays
+		mutually_exclusive = { focus = UKR_trotskys_wishes focus = UKR_dismiss_judas }
 		available = {
 			}
 		
@@ -85,9 +112,9 @@
 		
 		prerequisite = { focus = UKR_orders_from_moscow }
 
-		icon = UKR_disobey_trotsky
+		icon = UKR_petrovsky_stays
 		relative_position_id = UKR_orders_from_moscow
-		x = 0
+		x = 1
 		y = 1
 		cost = 2
 		ai_will_do = {
@@ -98,9 +125,10 @@
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {	
 		}
-	}		
+	}	
 	shared_focus = {
-		id = UKR_obey_trotsky	
+		id = UKR_dismiss_judas
+		mutually_exclusive = { focus = UKR_petrovsky_stays focus = UKR_trotskys_wishes }
 		available = {
 			}
 		
@@ -109,9 +137,9 @@
 		
 		prerequisite = { focus = UKR_orders_from_moscow }
 
-		icon = UKR_obey_trotsky
+		icon = UKR_dismiss_judas
 		relative_position_id = UKR_orders_from_moscow
-		x = 0
+		x = -1
 		y = 1
 		cost = 2
 		ai_will_do = {
@@ -122,7 +150,57 @@
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {	
 		}
-	}		
+	}	
+	shared_focus = {
+		id = UKR_like_nothing_had_changed
+		mutually_exclusive = { focus = UKR_a_new_leader }
+		available = {
+			}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = UKR_petrovsky_stays focus = UKR_dismiss_judas }
+
+		icon = UKR_like_nothing_had_changed
+		relative_position_id = UKR_petrovsky_stays
+		x = -1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+		}
+	}	
+	shared_focus = {
+		id = UKR_a_new_leader
+		mutually_exclusive = { focus = UKR_like_nothing_had_changed }
+		available = {
+			}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = UKR_dismiss_judas focus = UKR_trotskys_wishes }
+
+		icon = UKR_like_nothing_had_changed
+		relative_position_id = UKR_petrovsky_stays
+		x = 1
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+		}
+	}	
 	shared_focus = {
 		id = UKR_march_toward_makhnovia
 		available = {
@@ -131,11 +209,11 @@
 		bypass = {
 		}
 		
-		prerequisite = { focus = UKR_orders_from_moscow }
+		prerequisite = { focus = UKR_like_nothing_had_changed focus = UKR_a_new_leader }
 
 		icon = UKR_march_toward_makhnovia
-		relative_position_id = UKR_orders_from_moscow
-		x = 0
+		relative_position_id = UKR_a_new_leader
+		x = -1
 		y = 1
 		cost = 2
 		ai_will_do = {
@@ -154,4 +232,27 @@
 			}   
 		}
 	}		
+	shared_focus = {
+		id = UKR_operation
+		available = {
+			}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = UKR_march_toward_makhnovia }
 
+		icon = UKR_march_toward_makhnovia
+		relative_position_id = UKR_march_toward_makhnovia
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+		}
+	}

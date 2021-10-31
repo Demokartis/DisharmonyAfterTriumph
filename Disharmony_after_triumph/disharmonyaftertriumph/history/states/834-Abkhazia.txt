@@ -1,0 +1,21 @@
+state={
+	id=834
+	name="STATE_834"
+	history={
+		owner = GEO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = SOV
+		add_core_of = GEO
+		add_core_of = CIR
+
+	}
+	provinces={
+		672 11599 11617 
+	}
+	manpower=80305
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

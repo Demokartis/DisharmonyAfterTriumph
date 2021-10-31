@@ -711,10 +711,6 @@ SHL = {
 	color = rgb { 51 51 255 }
 	color_ui = rgb { 51 51 255 }
 }
-RHI = {
-	color = rgb { 174 255 117 }
-	color_ui = rgb { 129 255 94 }
-}
 RUS = {
 	color = rgb { 44 122 63 }
 	color_ui = rgb { 31 84 42 }
@@ -798,4 +794,44 @@ SDT	= {
 SIB	= {
 	color = rgb { 32 84 83 }
 	color_ui = rgb { 32 84 83 }
+}
+QGD	= {
+	color = rgb { 99 75 112 }
+	color_ui = rgb { 99 75 112 }
+}
+TNG	= {
+	color = rgb { 59 109 81 }
+	color_ui = rgb { 59 109 81 }
+}
+KML	= {
+	color = rgb { 175 160 117 }
+	color_ui = rgb { 175 160 117 }
+}
+SHA	= {
+	color = rgb { 173 90 65 }
+	color_ui = rgb { 173 90 65 }
+}
+TRK	= {
+	color = rgb { 116 186 193 }
+	color_ui = rgb { 116 186 193 }
+}
+KSH	= {
+	color = rgb { 158 149 53 }
+	color_ui = rgb { 158 149 53 }
+}
+ZOR	= {
+	color = rgb { 204  198  138 }
+	color_ui = rgb { 204  198  138 }
+}
+HJZ = {
+	color = rgb { 183  52  44 }
+	color_ui = rgb { 183  52  44 }
+}
+ZZB = {
+	color = rgb { 175 170 181 }
+	color_ui = rgb { 175 170 181 }
+}
+TNC = {
+	color = rgb { 108 158 116 }
+	color_ui = rgb { 108 158 116 }
 }

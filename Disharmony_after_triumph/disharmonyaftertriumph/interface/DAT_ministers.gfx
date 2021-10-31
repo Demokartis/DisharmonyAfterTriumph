@@ -1,0 +1,8 @@
+spriteTypes = {
+
+spriteType = {
+		name = "GFX_idea_USA_Charles_Curtis_hog_mli"
+		texturefile = "gfx/interface/ministers/USA/USA_Charles_Curtis.png"
+
+	}
+}

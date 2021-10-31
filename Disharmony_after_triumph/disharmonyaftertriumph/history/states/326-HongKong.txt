@@ -1,12 +1,11 @@
-state=
-{
+state={
 	id=326
 	name="STATE_326"
 	manpower = 1143516
 	state_category = large_town
 	history=
 	{
-		owner = GXC
+		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {

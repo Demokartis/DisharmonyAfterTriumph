@@ -120,6 +120,8 @@ add_ideas = {
    ENG_the_sun_is_setting
    ENG_reminder_of_failures
    the_british_civil_war
+   ENG_parlamentary_demands
+   ENG_unpopular_military_rule
 }
 
 set_politics = {

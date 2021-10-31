@@ -28,4 +28,20 @@ spriteTypes = {
 		name = "GFX_news_event_union_of_britain_emerges"
 		texturefile = "gfx/event_pictures/news_event_union_of_britain_emerges.dds"
 	}		
+	spriteType = { 
+		name = "GFX_report_event_ukraine_border_conflict"
+		texturefile = "gfx/event_pictures/report_event_ukraine_border_conflict.dds"
+	}	
+	spriteType = { 
+		name = "GFX_report_event_makhnovia_border_conflict"
+		texturefile = "gfx/event_pictures/report_event_makhnovia_border_conflict.dds"
+	}	
+	spriteType = { 
+		name = "GFX_report_event_makhnovia.2"
+		texturefile = "gfx/event_pictures/report_event_makhnovia.2.dds"
+	}
+	spriteType = { 
+		name = "GFX_news_event_makhnovia_victory"
+		texturefile = "gfx/event_pictures/news_event_makhnovia_victory.dds"
+	}
 }

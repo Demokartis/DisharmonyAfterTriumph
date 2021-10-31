@@ -129,7 +129,8 @@ set_popularities = {
 	paternal_autocrat = 8
 	authoritarian_democrat = 33
 	collective_vanguardist = 2
-	national_chauvinist = 15
+	national_chauvinist = 11
+	left_nationalist = 4
 }
 
 create_country_leader = {
@@ -139,7 +140,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = revolutionary_conservatism
 	traits = {
-		dictator
+		trait_revolutionary_conservatism
 	}
 }
 
@@ -148,22 +149,22 @@ create_country_leader = {
 	desc = "POLITICS_GREGOR_STRASSER_DESC"
 	picture = "Portrait_Germany_Gregor_Strasser.dds"
 	expire = "1965.1.1"
-	ideology = national_chauvinist_subtype
+	ideology = left_nationalist_subtype
 	traits = {
 		dictator
 	}
 }
 
-#create_country_leader = {
-#	name = "Ernst Röhm"
-#	desc = "POLITICS_ERNST_ROHM_DESC"
-#	picture = "Portrait_Germany_Ernst_Röhm.dds"
-#	expire = "1965.1.1"
-#	ideology = national_chauvinist_subtype
-#	traits = {
-#		dictator
-#	}
-#}
+create_country_leader = {
+	name = "Ernst Röhm"
+	desc = "POLITICS_ERNST_ROHM_DESC"
+	picture = "Portrait_Germany_Ernst_Röhm.dds"
+	expire = "1965.1.1"
+	ideology = national_chauvinist_subtype
+	traits = {
+		dictator
+	}
+}
 
 create_country_leader = {
 	name = "Konrad Adenauer"

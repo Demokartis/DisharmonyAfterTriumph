@@ -16,7 +16,7 @@ ideas = {
 			}
 
 			modifier = {
-				consumer_goods_factor = 0.25
+				consumer_goods_factor = 0.15
 				production_speed_buildings_factor = -0.1					
 			}
 		}	
@@ -52,8 +52,8 @@ ideas = {
 
 			modifier = {
                 army_org = 1.0	
-                paternal_autocrat_drift = 0.01	
-                equipment_capture_factor = 0.2 				
+				equipment_capture_factor = 0.05 
+                political_power_gain = 0.01				
 			}
 		}	
 		MKH_anarchist_bulwark = {
@@ -206,7 +206,24 @@ ideas = {
 				attack_bonus_against = 0.1
 				defense_bonus_against = 0.1
 			}						
-		}			
+		}		
+		MKH_angered_kulaks  = {
+
+			name = MKH_angered_kulaks
+			picture = MKH_angered_kulaks
+			allowed = {
+				original_tag = MKH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			    stability_weekly = -0.01
+				production_factory_max_efficiency_factor = -0.01
+			}						
+		}
 	}
 	economy = {
 		law = yes

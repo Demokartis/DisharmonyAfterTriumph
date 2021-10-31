@@ -1,0 +1,21 @@
+state={
+	id=837
+	name="STATE_837"
+	history={
+		owner = GEO
+		victory_points = {
+			12476 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = TUR
+	}
+	provinces={
+		7454 10403 
+	}
+	manpower=84500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

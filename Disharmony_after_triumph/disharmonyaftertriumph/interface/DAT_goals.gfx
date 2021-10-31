@@ -1,7 +1,55 @@
 spriteTypes = {
 
 	SpriteType = { 
-		name = "GFX_focus_TUR_loosen_the_laws_on_secularism"
-		texturefile = "gfx/interface/goals/focus_TUR_loosen_the_laws_on_secularism.dds"
+		name = "GFX_focus_MKH_free_territory_makhnovshchina"
+		texturefile = "gfx/interface/goals/focus_MKH_free_territory_makhnovshchina.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_MKH_raise_conscription"
+		texturefile = "gfx/interface/goals/focus_MKH_raise_conscription.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_MKH_they_are_among_us"
+		texturefile = "gfx/interface/goals/focus_MKH_they_are_among_us.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_MKH_seize_kulak_property"
+		texturefile = "gfx/interface/goals/focus_MKH_seize_kulak_property.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_focus_MKH_prepare_for_their_return"
+		texturefile = "gfx/interface/goals/focus_MKH_prepare_for_their_return.dds"
+	}	
+    SpriteType = { 
+		name = "GFX_focus_MKH_they_are_approaching"
+		texturefile = "gfx/interface/goals/focus_MKH_they_are_approaching.dds"
+	}	
+    SpriteType = { 
+		name = "GFX_focus_MKH_we_are_better"
+		texturefile = "gfx/interface/goals/focus_MKH_we_are_better.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_MKH_testing_their_strength"
+		texturefile = "gfx/interface/goals/focus_MKH_testing_their_strength.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_MKH_smuggle_soviet_weapons"
+		texturefile = "gfx/interface/goals/focus_MKH_smuggle_soviet_weapons.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_MKH_to_secure_anarchy"
+		texturefile = "gfx/interface/goals/focus_MKH_to_secure_anarchy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_MKH_the_final_showdown"
+		texturefile = "gfx/interface/goals/focus_MKH_the_final_showdown.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_MKH_usage_of_cossack_tactics"
+		texturefile = "gfx/interface/goals/focus_MKH_usage_of_cossack_tactics.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_MKH_workers_militias"
+		texturefile = "gfx/interface/goals/focus_MKH_workers_militias.dds"
 	}
 }

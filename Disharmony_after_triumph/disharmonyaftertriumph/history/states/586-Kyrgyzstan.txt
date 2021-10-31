@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = KAZ
+		owner = TMS
 		add_core_of = KAZ
 		buildings = {
 			infrastructure = 3

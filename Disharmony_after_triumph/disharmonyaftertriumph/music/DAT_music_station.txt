@@ -1,0 +1,29 @@
+music_station = "DAT_main_music"
+
+music = {
+	song = "maintheme"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+
+# SPECIAL
+
+music = {
+	song = "internationale_noire"
+
+	chance = {
+		modifier = {
+			factor = 0
+			NOT = {
+				tag = FRA
+			}
+		}
+		modifier = {
+			factor = 2
+			tag = FRA			
+		}
+	}
+}

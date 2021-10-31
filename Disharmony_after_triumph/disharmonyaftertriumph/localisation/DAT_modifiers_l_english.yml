@@ -1,5 +1,6 @@
 ﻿l_english:
  collective_vanguardist_drift:0 "Daily Collectivist Support"
+ left_nationalist_drift:0 "Daily Left Nationalist Support"
  social_conservative_drift:0 "Daily Conservative Support"
  national_chauvinist_drift:0 "Daily National Chauvinist Support"
  paternal_autocrat_drift:0 "Daily Autocratic Support"
@@ -21,4 +22,5 @@
  paternal_autocrat_acceptance:0 "Acceptance of Autocratic Diplomacy"
  insurrectionary_anarchist_acceptance:0 "Acceptance of Anarchist Diplomacy" 
  revolutionary_socialist_acceptance:0 "Acceptance of Revolutionary Socialist Diplomacy"
+ left_nationalist_acceptance:0 "Acceptance of Left Nationalist Diplomacy"
  cossack_leader:0 "Cossack Leader"

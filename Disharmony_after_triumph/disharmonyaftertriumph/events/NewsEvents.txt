@@ -472,7 +472,7 @@ news_event = {
 	id = news.10
 	title = news.10.title
 	desc = news.10.desc
-	picture = GFX_news_event_ukraine_red_black_war
+	picture = GFX_news_event_makhnovia_victory
 	
 	is_triggered_only = yes
 	

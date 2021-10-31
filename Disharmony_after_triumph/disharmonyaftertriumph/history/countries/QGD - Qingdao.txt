@@ -1,0 +1,37 @@
+﻿capital = 743
+
+oob = "QGD_1936"
+
+set_stability = 0.3
+set_war_support = 0.2
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	paternal_autocrat = 86
+	communardist = 1
+	national_chauvinist = 9
+	authoritarian_democrat = 5
+}
+
+create_country_leader = {
+	name = " Erich Raeder"
+	desc = "POLITICS_ERICH_RAEDER_DESC"
+	picture = "gfx/leaders/QGD/Portrait_Erich_Raeder.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}

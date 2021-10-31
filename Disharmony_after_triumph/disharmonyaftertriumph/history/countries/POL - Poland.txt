@@ -51,16 +51,17 @@ if = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = national_chauvinist
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
 	social_conservative = 18
-	collective_vanguardist = 15
+	authoritarian_democrat = 16
 	communardist = 2
-	authoritarian_democrat = 65
+	national_chauvinist = 59
+	paternal_autocrat = 5
 }
 
 create_country_leader = {

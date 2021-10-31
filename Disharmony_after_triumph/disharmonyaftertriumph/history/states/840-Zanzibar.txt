@@ -1,0 +1,23 @@
+state={
+	id=840
+	name="STATE_840"
+	history={
+		owner = ZZB
+		buildings = {
+			infrastructure = 2
+			13236 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = ZZB
+
+	}
+	provinces={
+		13236 
+	}
+	manpower=530520
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

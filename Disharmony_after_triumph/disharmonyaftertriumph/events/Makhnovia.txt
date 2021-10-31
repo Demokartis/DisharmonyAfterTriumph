@@ -13,6 +13,247 @@ country_event = { #Intro
 
 	option = {
 		name = makhnovia.1.a	
+		
+		hidden_effect = {
+			set_country_flag = council_of_insurgents
+			set_country_flag = council_of_insurgents_positive
+		}	
+    }
+}
+country_event = { 
+	id = makhnovia.2
+	title = makhnovia.2.t
+	desc = makhnovia.2.d
+
+	picture = GFX_report_event_makhnovia.2
+
+	fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = makhnovia.2.a	
+    }
+}
+country_event = { 
+	id = makhnovia.3
+	title = makhnovia.3.t
+	desc = makhnovia.3.d
+
+	picture = GFX_report_event_makhnovia.3
+
+	fire_only_once = yes
+
+    trigger = {
+		tag = MKH
+		has_global_flag = ukranian_war
+		NOT = { has_global_flag = ukranian_war_over }
+		MKH = { has_war = no }
+	}
+
+	option = {
+		name = makhnovia.3.a	
+		add_ideas = { MKH_peasantry_favoured_split }
+		add_ideas = { MKH_non_existent_economy }
+		load_focus_tree = MKH_after_war
+		
+		hidden_effect = {
+			news_event = { id = news.10 }
+			set_global_flag = ukranian_war_over
+			clr_global_flag = ukranian_war
+			drop_cosmetic_tag = yes
+		}
+    }
+}
+country_event = { 
+	id = makhnovia.4
+	title = makhnovia.4.t
+	desc = makhnovia.4.d
+
+	picture = GFX_report_event_makhnovia.4
+
+	fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = makhnovia.4.a	
+		set_country_flag = offensive_ukraine_war
+		unlock_decision_tooltip = MKH_recruit_disgruntled_workers_mykolaiv
+		unlock_decision_tooltip = MKH_recruit_disgruntled_workers_poltava
+		unlock_decision_tooltip = MKH_recruit_disgruntled_workers_cherkasy
+		unlock_decision_tooltip = MKH_recruit_disgruntled_workers_kharkov
+		unlock_decision_tooltip = MKH_to_kiev
+    }
+	option = {
+		name = makhnovia.4.b	
+		set_country_flag = defensive_ukraine_war
+		unlock_decision_tooltip = MKH_communal_defense
+		unlock_decision_tooltip = MKH_hold_the_dnieper
+    }
+}
+country_event = { 
+	id = makhnovia.5
+	title = makhnovia.5.t
+	desc = makhnovia.5.d
+
+	picture = GFX_report_event_makhnovia.5
+
+	fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = makhnovia.5.a	
+		start_civil_war = {
+				ruling_party = insurrectionary_anarchist
+				ideology = left_nationalist
+				size = 0.3
+				capital = 227
+				states = { 227 }
+				keep_unit_leaders = {
+					897 898 899
+				}
+			}	
+		hidden_effect = {
+			set_country_flag = MKH_grigoriev_revolts
+			set_capital = 200
+			drop_cosmetic_tag = yes
+			random_other_country = {
+				limit = {
+					original_tag = MKH
+					has_government = left_nationalist
+				}
+				save_event_target_as = left_nationalist_makhnovia_civil_war
+				every_unit_leader = {
+					set_nationality = MKH
+				}
+			}
+			MKH = {
+				every_unit_leader = {
+					limit = {
+						OR = {
+							has_id = 901
+						}
+					}
+					set_nationality = event_target:left_nationalist_makhnovia_civil_war
+				}
+			}
+		}	
+    }
+	option = {
+		name = makhnovia.5.b	
+		hidden_effect = {
+			set_country_flag = MKH_stability_secured
+			white_peace = UKR
+			drop_cosmetic_tag = yes
+			set_capital = 227
+			start_civil_war = {
+				ruling_party = left_nationalist
+				ideology = insurrectionary_anarchist
+				size = 0.7 
+				capital = 200
+				states = { 200 226 196 }
+				keep_unit_leaders = {
+					901	
+				}
+			}
+			random_other_country = {
+				limit = {
+					original_tag = MKH
+					has_government = insurrectionary_anarchist
+				}
+				save_event_target_as = insurrectionary_anarchist_makhnovia_civil_war
+				every_unit_leader = {
+					set_nationality = MKH
+				}
+			}
+			MKH = {
+				every_unit_leader = {
+					limit = {
+						OR = {
+							has_id = 897 
+							has_id = 898
+							has_id = 899
+						}
+					}
+					set_nationality = event_target:insurrectionary_anarchist_makhnovia_civil_war
+				}
+			}
+		}
+	}
+}	
+country_event = { 
+	id = makhnovia.6
+	title = makhnovia.6.t
+	desc = makhnovia.6.d
+
+	picture = GFX_report_event_makhnovia.6
+
+	fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = makhnovia.6.a	
+		kill_country_leader = yes
+		remove_unit_leader = 900 
+		set_country_flag = makhno_death
+		add_stability = -0.2
+		add_political_power = -100
+		set_party_name = { 
+			ideology = left_nationalist
+			long_name = MKH_left_nationalist_party_grigoriev_long 
+			name = MKH_left_nationalist_party_grigoriev 
+		}
+		create_country_leader = {
+			name = "Viktor Belash"
+			desc = "POLITICS_VIKTOR_BELASH_DESC"
+			picture = gfx/leaders/MKH/Portrait_Viktor_Belash.dds
+			expire = "1965.1.1"
+			ideology = insurrectionary_anarchist_subtype
+			traits = {
+			}
+		}
+		create_country_leader = {
+			name = "Nikifor Grigoriev"
+			desc = "POLITICS_NIKIFOR_GRIGORIEV_DESC"
+			picture = gfx/leaders/MKH/Portrait_Nikifor_Grigoriev.dds
+			expire = "1965.1.1"
+			ideology = left_nationalist_subtype
+			traits = {
+			}
+		}
+		add_popularity = {
+				ideology = left_nationalist
+				popularity = 0.3
+			}
+		hidden_effect = {
+		country_event = { id = makhnovia.5 days = 4 }
+		}	
+    }
+}
+country_event = { 
+	id = makhnovia.7
+	title = makhnovia.7.t
+	desc = makhnovia.7.d
+
+	picture = GFX_report_event_makhnovia.7
+
+	fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = makhnovia.7.a
+		remove_unit_leader = 901
+		add_political_power = -10
+		add_popularity = {
+				ideology = left_nationalist
+				popularity = -0.1
+			}
+		hidden_effect = {
+		}	
     }
 }
 
@@ -31,6 +272,13 @@ country_event = {
 
 	option = {
 		name = makhnovia_border_conflict.2.a	
+		add_political_power = 40
+		army_experience = 25
+		add_tech_bonus = {
+			name = defensive_border_conflict_won
+			category = land_doctrine
+			bonus = 1.0
+		}
     }
 }
 country_event = { 
@@ -45,7 +293,9 @@ country_event = {
     is_triggered_only = yes
 
 	option = {
-		name = makhnovia_border_conflict.3.a	
+		name = makhnovia_border_conflict.3.a
+		add_political_power = 10
+		army_experience = 10
     }
 }
 country_event = { 
@@ -53,7 +303,7 @@ country_event = {
 	title = makhnovia_border_conflict.4.t
 	desc = makhnovia_border_conflict.4.d
 
-	picture = GFX_report_event_makhnovia_border_conflict
+	picture = GFX_report_event_dead_soldiers
 
 	fire_only_once = yes
 
@@ -61,5 +311,8 @@ country_event = {
 
 	option = {
 		name = makhnovia_border_conflict.4.a
+		add_political_power = -20
+		army_experience = 10
+
     }
 }
