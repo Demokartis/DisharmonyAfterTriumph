@@ -19,10 +19,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	paternal_autocrat = 86
+	paternal_autocrat = 77
 	communardist = 1
 	national_chauvinist = 9
-	authoritarian_democrat = 5
+	authoritarian_democrat = 13
 }
 
 create_country_leader = {

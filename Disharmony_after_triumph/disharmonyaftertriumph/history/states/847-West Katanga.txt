@@ -8,7 +8,7 @@ state={
 	history={
 		owner = KAT
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
 		add_core_of = COG
 		add_core_of = KAT
@@ -20,4 +20,6 @@ state={
 	manpower=400336
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+	
+	local_supplies=2.0 
 }

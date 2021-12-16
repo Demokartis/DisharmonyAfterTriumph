@@ -4,7 +4,7 @@ state={
 	history={
 		owner = HUN
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			industrial_complex = 1
 
 		}
@@ -18,4 +18,6 @@ state={
 	manpower=380070
 	buildings_max_level_factor=1.000
 	state_category=town
+	
+	local_supplies=9.0 
 }

@@ -88,7 +88,7 @@ set_politics = {
 set_popularities = {
 	social_conservative = 70
 	national_chauvinist = 10
-	collective_vanguardist = 20
+	collective_vanguardist = 10
 	authoritarian_democrat = 10
 }
 

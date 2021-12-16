@@ -23,13 +23,3 @@ set_popularities = {
 	paternal_autocrat = 5
 	communardist = 50
 }
-
-create_country_leader = {
-	name = "Ahmed Ben Bella"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = paternal_autocrat_subtype
-	traits = {
-		#
-	}
-}

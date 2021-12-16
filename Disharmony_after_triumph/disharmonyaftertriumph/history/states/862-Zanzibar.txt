@@ -7,7 +7,6 @@ state={
 			infrastructure = 2
 			13236 = {
 				naval_base = 2
-
 			}
 
 		}
@@ -20,4 +19,6 @@ state={
 	manpower=530520
 	buildings_max_level_factor=1.000
 	state_category = rural
+	
+	local_supplies=0.0 
 }
