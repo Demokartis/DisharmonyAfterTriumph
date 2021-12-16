@@ -1,0 +1,12 @@
+on_actions = {
+  on_startup = {
+    effect = {
+      ENG = { country_event = { id = britain.1 } }
+    }
+  }
+  on_startup = {
+    effect = {
+      MKH = { country_event = { id = makhnovia.1 } }
+    }
+  }  
+}

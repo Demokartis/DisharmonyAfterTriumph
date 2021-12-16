@@ -1,27 +1,32 @@
+state = {
+	id = 584
+	name = "STATE_584"
 
-state={
-	id=584
-	name="STATE_584"
-
-	history={
-		add_core_of = TMS
+	history = {
+	
 		owner = PER
+		
 		victory_points = {
-			12333 1 
+			12333 2
 		}
+		
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			industrial_complex = 1
 
 		}
-		add_core_of = SOV
+		
+		add_core_of = TMS
 
 	}
 
-	provinces={
+	provinces = {
 		7491 10510 12333 12359 
 	}
-	manpower=964523
-	buildings_max_level_factor=1.000
-	state_category=pastoral
+	manpower = 931458
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+
+	local_supplies = 4.0 
+	
 }

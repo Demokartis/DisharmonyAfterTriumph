@@ -1,0 +1,31 @@
+state={
+	id=837
+	name="STATE_837"
+	resources={
+		steel=27.000
+	}
+
+	history={
+		owner = UBR
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 6
+
+		}
+		victory_points = {
+			9297 25 
+		}
+		add_core_of = ENG
+		add_core_of = ROB
+		add_core_of = UBR		
+
+	}	
+	provinces={
+		6270 7239 9297 
+	}
+	manpower=3485235
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

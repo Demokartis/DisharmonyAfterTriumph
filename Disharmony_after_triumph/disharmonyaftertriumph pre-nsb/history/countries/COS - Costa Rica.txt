@@ -1,0 +1,45 @@
+﻿capital = 316
+
+oob = "COS_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 10
+
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1932.2.14"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	social_liberal = 98
+	social_democrat = 2
+}
+
+create_country_leader = {
+	name = "Ricardo Jiménez Oreamuno"
+	desc = "POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
+	picture = "GFX_portrait_costa_rica_ricardo_jiminez_oreamuno"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "León Cortés Castro"
+	desc = "POLITICS_LEON_CORTES_CASTRO_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}

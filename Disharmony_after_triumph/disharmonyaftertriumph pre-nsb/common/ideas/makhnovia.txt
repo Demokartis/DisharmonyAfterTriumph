@@ -1,0 +1,263 @@
+ideas = {
+
+	country = {
+
+		MKH_non_existent_economy = {
+
+			name = MKH_non_existent_economy
+			picture = MKH_non_existent_economy
+
+			allowed = {
+				original_tag = MKH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.1					
+			}
+		}	
+		MKH_agrarian_society = {
+
+			name = MKH_agrarian_society
+			picture = generic_agrarian_society
+
+			allowed = {
+				original_tag = MKH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+			}
+		}	
+		MKH_the_black_army = {
+
+			name = MKH_the_black_army
+			picture = MKH_the_black_army
+			allowed = {
+				original_tag = MKH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+                army_org = 1.0	
+				equipment_capture_factor = 0.05 
+                political_power_gain = 0.01				
+			}
+		}	
+		MKH_anarchist_bulwark = {
+
+			name = MKH_anarchist_bulwark
+			picture = MKH_anarchist_bulwark
+			allowed = {
+				original_tag = MKH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				surrender_limit = 1
+				max_surrender_limit_offset = 0.15
+				defence = 0.02
+				insurrectionary_anarchist_drift = 0.02
+				disabled_ideas = 1
+			}
+		}	
+		MKH_workers_peasantry_split_intermediate  = {
+
+			name = MKH_workers_peasantry_split_intermediate
+			picture = MKH_workers_peasantry_split_intermediate
+			allowed = {
+				original_tag = MKH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			    political_power_gain = -0.05
+		        stability_factor = -0.1
+			}
+		}	
+		MKH_workers_favoured_split  = {
+
+			name = MKH_workers_favoured_split
+			picture = MKH_workers_favoured_split
+			allowed = {
+				original_tag = MKH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			    political_power_gain = 0.03
+				collective_vanguardist_drift = 0.02
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05			
+			}
+		}	
+		MKH_workers_dominance_split  = {
+
+			name = MKH_workers_dominance_split
+			picture = MKH_workers_dominance_split
+			allowed = {
+				original_tag = MKH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			    political_power_gain = 0.05
+				collective_vanguardist_drift = 0.03
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1	
+				industrial_capacity_dockyard = 0.1			
+			}
+		}		
+		MKH_peasantry_favoured_split  = {
+
+			name = MKH_peasantry_favoured_split
+			picture = MKH_peasantry_favoured_split
+			allowed = {
+				original_tag = MKH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			    political_power_gain = 0.03
+				insurrectionary_anarchist_drift = 0.02
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05	
+                consumer_goods_factor = -0.05	
+                local_resources_factor = 0.05				
+			}
+		}	
+		MKH_peasantry_dominance_split  = {
+
+			name = MKH_peasantry_favoured_split
+			picture = MKH_peasantry_favoured_split
+			allowed = {
+				original_tag = MKH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			    political_power_gain = 0.05
+				insurrectionary_anarchist_drift = 0.03
+                consumer_goods_factor = -0.1
+                local_resources_factor = 0.1				
+			}
+		}	              
+		MKH_reorganized_militias  = {
+
+			name = MKH_reorganized_militias
+			picture = MKH_reorganized_militias
+			allowed = {
+				original_tag = MKH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			    minimum_training_level = -0.03
+				recruitable_population_factor = 0.1		
+			}
+		}	
+		MKH_anarchy_last_stand  = {
+
+			name = MKH_anarchy_last_stand
+			picture = MKH_anarchy_last_stand
+			allowed = {
+				original_tag = MKH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			targeted_modifier = {
+				tag = UKR
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}						
+		}		
+		MKH_angered_kulaks  = {
+
+			name = MKH_angered_kulaks
+			picture = MKH_angered_kulaks
+			allowed = {
+				original_tag = MKH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			    stability_weekly = -0.01
+				production_factory_max_efficiency_factor = -0.01
+			}						
+		}
+	}
+	economy = {
+		law = yes
+		MKH_collectivized_society = {
+
+			picture = SPR_collectivized_society		
+			
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		
+			modifier = {
+				resistance_target = -0.2
+				consumer_goods_factor = 0.15
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_arms_factory_factor = 0.3
+				conversion_cost_civ_to_mil_factor= -0.3
+				conversion_cost_mil_to_civ_factor = -0.3
+				global_building_slots_factor = 0.1
+				industry_free_repair_factor = 0.5
+				industrial_capacity_factory = 0.7
+				industrial_capacity_dockyard = 0.7
+				research_speed_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.2
+				production_factory_max_efficiency_factor = -0.2
+				line_change_production_efficiency_factor = 0.1
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			cancel_if_invalid = no
+		}
+	}	
+}	

@@ -405,8 +405,8 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "national_spirit_container"
-				position = { x = 90 y = 19 }
-				size = { width = 365 height = 68 }
+				position = { x = 99 y = 16 }
+				size = { width = 364 height = 74 }
 				
 				verticalScrollbar = "right_vertical_slider"
 				
@@ -447,11 +447,11 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "leader_name"
-			position = { x = 18 y = 271 }
+			position = { x = 18 y = 262 }
 			font = "hoi_18mbs"
 			text = "leader_name"
 			maxWidth = 155
-			maxHeight = 20
+			maxHeight = 36
 			format = center
 			vertical_alignment = center
 		}
@@ -461,6 +461,8 @@ guiTypes = {
 			position = { x = 0 y = 425 }
 			size = { width=100%% height=100%% }
 			verticalScrollbar = "right_vertical_slider"
+			scroll_wheel_factor = 40
+			smooth_scrolling = yes
 			margin = { top = 14 bottom = 13}
 		
 			background = {
@@ -1037,6 +1039,8 @@ guiTypes = {
 			size = { width=548 height=100%% }
 			clipping = yes
 			verticalScrollbar = "right_vertical_slider"
+			scroll_wheel_factor = 40
+			smooth_scrolling = yes
 			margin = { top = 15 bottom = 15}
 		
 			background = {

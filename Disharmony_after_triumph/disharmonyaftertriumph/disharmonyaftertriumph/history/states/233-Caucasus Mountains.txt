@@ -1,0 +1,33 @@
+
+state={
+	id=233
+	name="STATE_233"
+	resources={
+		chromium=35.000
+	}
+
+	history={
+		owner = KUB
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SOV
+		add_core_of = CIR
+		add_core_of = KUB
+		victory_points = {
+			9628 3 
+		}
+		victory_points = {
+			9663 1 
+		}
+
+	}
+
+	provinces={
+		666 670 685 714 1455 3667 6674 6702 6718 6733 9628 9632 9647 9649 11609 11614 11633 11661 11690 
+	}
+	manpower=1463970
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

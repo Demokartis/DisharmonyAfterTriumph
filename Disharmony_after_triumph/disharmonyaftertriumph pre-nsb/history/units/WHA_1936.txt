@@ -1,0 +1,163 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Pekhotnaya Diviziya"		
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		#recon = { x = 0 y = 0 } 		# Recon bn had 16 L tanks, 10 ACs, 1x mot inf co #Eng and recon removed and they seem rather OP. Could revisit if balance changes
+		#engineer = { x = 0 y = 1 } 	# (semi-mot) Engineer bn
+		artillery = { x = 0 y = 0 } 	# Heavy Arty Regiment had 1x 152mm bn + 2x 122mm bn
+	}
+}
+
+division_template = {
+	name = "Motorizovannaya Diviziya"		
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		#recon = { x = 0 y = 0 } 		# Recon bn had 16x L tanks, 45 ACs #Eng and recon removed and they seem rather OP. Could revisit if balance changes 
+		#engineer = { x = 0 y = 1 } 	# (mot) Engineer bn
+	}
+}
+
+division_template = {
+	name = "Kavaleriyskaya Diviziya" 	# Cavalry Division
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Mekhanizirovaniy Korpus" 			
+
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 1 y = 0 }		
+		light_armor = { x = 1 y = 1 }		
+		light_armor = { x = 1 y = 2 }			
+	}
+}
+
+
+##### OOB #####
+units = {	
+	division= {	
+		location = 3134
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}		
+	division= {	
+		location = 9124
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}	
+	division= {	
+		location = 89
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.85
+	}		
+	division= {	
+		location = 11074
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}		
+	division= {	
+		location = 7898
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}		
+	division= {	
+		location = 198
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}	
+	division= {	
+		location = 11179
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}
+	division= {	
+		location = 9162
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}	
+	division= {	
+		location = 10723
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}		
+	division= {	
+		location = 3338
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}	
+	division= {	
+		location = 7318
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}	
+	division= {	
+		location = 6075
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}		
+	division= {	
+		location = 72
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}	
+	division= {	
+		location = 1307
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}	
+	division= {	
+		location = 11071
+		division_template = "Motorizovannaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}	
+	division= {	
+		location = 3166
+		division_template = "Mekhanizirovaniy Korpus"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}		
+}

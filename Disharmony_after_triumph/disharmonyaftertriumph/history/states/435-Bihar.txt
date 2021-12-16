@@ -9,7 +9,7 @@ state={
 			4516 1 
 		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3 #was: 5
 
 		}
 
@@ -21,4 +21,6 @@ state={
 	manpower=36574500
 	buildings_max_level_factor=1.000
 	state_category=rural
+
+	local_supplies=0.0 
 }

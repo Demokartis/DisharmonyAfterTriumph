@@ -1,0 +1,54 @@
+﻿	division_template = {
+	name = "Beşa Piyadeyên"			# Infantry Division
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Dabeşa Çiyayê"				# Mountain Division
+
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+
+
+units = {
+	division = {
+		name = "Beşa Piyadeyên"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4512
+		division_template = "Beşa Piyadeyên"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Beşa Piyadeyên"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1549
+		division_template = "Beşa Piyadeyên"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+}

@@ -1,11 +1,15 @@
-
-state={
+state=
+{
 	id=69
 	name="STATE_69"
+	manpower = 1830000
+	
+	state_category = town
+	
 	resources={
-		steel=3.000
+		steel=4 # was: 8
 	}
-
+	
 	history={
 		victory_points = {
 			3585 3 
@@ -15,7 +19,7 @@ state={
 		}
 		owner = SDT
 		buildings = {
-			infrastructure = 8
+			infrastructure = 4
 			industrial_complex = 2
 			anti_air_building = 1
 			424 = {
@@ -49,15 +53,11 @@ state={
 		1938.9.30 = {
 			owner = GER
 			controller = GER
-
 		}
-
 	}
+	provinces=
+	{
+424 469 3418 3585 6470 9555 11401 11414 11432  	}
 
-	provinces={
-		424 469 3418 3585 6470 9555 11401 11414 11432 
-	}
-	manpower=1830000
-	buildings_max_level_factor=1.000
-	state_category=town
+	local_supplies=0.0 
 }

@@ -2,6 +2,8 @@
 state={
 	id=5
 	name="STATE_5"
+	manpower = 638108
+	state_category = town
 
 	history={
 		victory_points = {
@@ -9,7 +11,7 @@ state={
 		}
 		owner = POL
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
 
 		}
 		add_core_of = GER
@@ -19,7 +21,6 @@ state={
 	provinces={
 		3351 3380 6375 9346 9372 11386 
 	}
-	manpower=638108
-	buildings_max_level_factor=1.000
-	state_category=town
+
+	local_supplies=12.0 
 }

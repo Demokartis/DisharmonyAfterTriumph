@@ -1,0 +1,113 @@
+﻿division_template = {
+	name = "División de Infanteria"
+
+	division_names_group = SPAN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+       	artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Brigada Agrarista"
+
+	division_names_group = MEX_INF_02
+
+	#is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "División de Caballería"
+
+	division_names_group = SPAN_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+       	artillery = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	##### Ejército Mexicano #####
+	division = {	# "2a División de Caballería"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4904 # Compeche
+		division_template = "División de Caballería"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
+	}
+	division = {
+		location = 1900
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+	}
+
+	division = {
+		location = 2021
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+	}
+
+	division = {
+		location = 12715
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+	}
+
+	division = {
+		location = 8032
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+	}
+		division = {
+		location = 10889
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+	}
+
+	division = {
+		location = 10730
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
+	}

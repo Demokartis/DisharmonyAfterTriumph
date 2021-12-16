@@ -1,0 +1,19 @@
+state={
+	id=839
+	name="STATE_839"
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SLO
+		add_core_of = YUG
+	}		
+	provinces={
+		6672 
+	}
+	manpower=30838
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -107,7 +107,7 @@ units = {
 		start_equipment_factor = 0.85
 	}			
 	division= {	
-		location = 6733
+		location = 731
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.85
@@ -131,7 +131,7 @@ units = {
 		start_equipment_factor = 0.85
 	}	
 	division= {	
-		location = 6702
+		location = 731
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.85

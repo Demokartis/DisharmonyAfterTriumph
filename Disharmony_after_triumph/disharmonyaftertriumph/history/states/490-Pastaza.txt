@@ -9,14 +9,17 @@ state={
 	history={
 		owner = ECU
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 1
 			air_base = 1
 		}
 		add_core_of = PRU
-		add_core_of = ECU	}
+		add_core_of = ECU
+	}
 
 	provinces={
 		8149 10942 
 	}
+
+	local_supplies=6.0 
 }

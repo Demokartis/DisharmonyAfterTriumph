@@ -1,0 +1,13 @@
+﻿focus_tree = {
+	id = ENG_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	default = no
+	shared_focus = ENG_our_duty
+	continuous_focus_position = { x = 50 y = 2000 }
+}

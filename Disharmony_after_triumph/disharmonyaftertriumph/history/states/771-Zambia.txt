@@ -1,4 +1,4 @@
-	state={
+state={
 	id=771
 	name="STATE_771" # Zambia
 	
@@ -16,7 +16,7 @@
 			5199 1
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 
 		}
 	}
@@ -26,4 +26,6 @@
 	}
 	manpower=1380089
 	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
 }

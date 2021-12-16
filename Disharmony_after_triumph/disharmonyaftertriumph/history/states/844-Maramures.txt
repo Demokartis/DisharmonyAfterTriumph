@@ -1,0 +1,21 @@
+state={
+	id=844
+	name="STATE_844"
+	history={
+		owner = ROM
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = ROM
+		add_core_of = TRA
+
+	}		
+	provinces={
+		727 9704 
+	}
+	manpower=26100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,32 +1,30 @@
-
-state={
-	id=233
-	name="STATE_233"
-	resources={
-		chromium=35.000
+state = {
+	id = 233
+	name = "STATE_233"
+	resources = {
+		chromium = 18 # was: 46.000
 	}
 
-	history={
-		owner = CIR
+	history = {
+		owner = KUB
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 
 		}
 		add_core_of = SOV
 		add_core_of = CIR
+		add_core_of = KUB
 		victory_points = {
-			9628 3 
+			9663 1
 		}
-		victory_points = {
-			9663 1 
-		}
-
 	}
 
-	provinces={
-		666 670 685 714 1455 3667 6674 6702 6718 6733 9628 9632 9647 9649 11609 11614 11633 11661 11690 
+	provinces = {
+		  3698 6692 6721 9649 9663 9674 11664 
 	}
-	manpower=1463970
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower = 387990
+	buildings_max_level_factor = 1.000
+	state_category = rural
+
+	local_supplies = 0.0 
 }

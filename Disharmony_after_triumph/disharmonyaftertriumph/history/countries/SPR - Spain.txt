@@ -97,16 +97,37 @@ set_stability = 0.5
 			indecisive
 		}
 	}
-		create_country_leader = {
-		name = "Ángel Pestaña"
-		desc = "POLITICS_ANGEL_PESTAÑA_DESC"
-		picture = "Portrait_Angel_Pestaña.dds"
+	create_country_leader = {
+		name = "Marcelino_Domingo"
+		desc = "POLITICS_MARCELINO_DOMINGO_DESC"
+		picture = "Portrait_Marcelino_Domingo.dds"
 		expire = "1965.1.1"
 		ideology = communardist_subtype
 		traits = {
 
 		}
 	}	
+	create_country_leader = {
+		name = "Buenaventura Durruti"
+		desc = "POLITICS_BUENAVENTURA_DURRUTI_DESC"
+		picture = "Portrait_Buenaventura_Durruti.dds"
+		expire = "1965.1.1"
+		ideology = insurrectionary_anarchist_subtype
+		traits = {
+
+		}
+	}
+
+	#create_country_leader = {
+		#name = "Ángel Pestaña"
+		#desc = "POLITICS_ANGEL_PESTAÑA_DESC"
+		#picture = "Portrait_Angel_Pestaña.dds"
+		#expire = "1965.1.1"
+		#ideology = communardist_subtype
+		#traits = {
+
+		#}
+	#}	
 	create_country_leader = {
 		name = "José Díaz"
 		desc = "POLITICS_JOSE_DIAZ_DESC"

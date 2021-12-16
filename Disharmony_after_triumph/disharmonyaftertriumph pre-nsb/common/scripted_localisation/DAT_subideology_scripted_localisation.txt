@@ -1,0 +1,85 @@
+defined_text = {
+	#SUB-Ideology
+	name = get_sub_ideology
+	text = {
+		trigger = {
+			has_country_leader_with_trait = trait_revolutionary_conservatism
+			has_government = authoritarian_democrat
+		}
+		localization_key = revolutionary_conservatism
+	}
+	##################################################################
+	text = {
+		trigger = {
+			has_government = paternal_autocrat
+		}
+		localization_key = paternal_autocrat
+	}
+	text = {
+		trigger = {
+			has_government = national_chauvinist
+		}
+		localization_key = national_chauvinist
+	}
+	text = {
+		trigger = {
+			has_government = authoritarian_democrat
+		}
+		localization_key = authoritarian_democrat
+	}
+	text = {
+		trigger = {
+			has_government = communardist
+		}
+		localization_key = communardist
+	}
+	text = {
+		trigger = {
+			has_government = social_conservative
+		}
+		localization_key = social_conservative
+	}
+	text = {
+		trigger = {
+			has_government = social_democrat
+		}
+		localization_key = social_democrat
+	}
+	text = {
+		trigger = {
+			has_government = social_liberal
+		}
+		localization_key = social_liberal
+	}
+	text = {
+		trigger = {
+			has_government = market_liberal
+		}
+		localization_key = market_liberal
+	}
+	text = {
+		trigger = {
+			has_government = collective_vanguardist
+		}
+		localization_key = collective_vanguardist
+	}
+	text = {
+		trigger = {
+			has_government = insurrectionary_anarchist
+		}
+		localization_key = insurrectionary_anarchist
+	}
+	text = {
+		trigger = {
+			has_government = left_nationalist
+		}
+		localization_key = left_nationalist
+	}
+	text = {
+		trigger = {
+			has_government = revolutionary_socialist
+		}
+		localization_key = revolutionary_socialist
+	}
+	####################################################################
+}

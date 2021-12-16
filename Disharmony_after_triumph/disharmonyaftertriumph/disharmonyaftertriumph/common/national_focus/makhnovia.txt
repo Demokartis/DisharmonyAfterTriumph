@@ -1,0 +1,26 @@
+﻿focus_tree = {
+	id = MKH_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MKH
+		}
+	}
+	default = no
+	shared_focus = MKH_free_territory_makhnovshchina
+	continuous_focus_position = { x = 50 y = 2000 }
+}
+focus_tree = {
+	id = MKH_after_war
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MKH
+		}
+	}
+	default = no
+	shared_focus = MKH_three_hurrahs_for_anarchy
+	continuous_focus_position = { x = 50 y = 2000 }
+}

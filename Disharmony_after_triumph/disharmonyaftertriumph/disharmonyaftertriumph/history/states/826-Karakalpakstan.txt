@@ -1,0 +1,19 @@
+state={
+	id=826
+	name="STATE_826"
+	history={
+		add_core_of = UZB
+		owner = KAZ
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SOV
+
+	}	
+	provinces={
+		7541 10348 12233 12454 12474 13207 
+	}
+	manpower=160320
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

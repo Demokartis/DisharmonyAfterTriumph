@@ -9,7 +9,7 @@ state={
 	history={
 		owner = ZAP
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 		}
 		add_core_of = MEX
 		add_core_of = ZAP
@@ -23,4 +23,6 @@ state={
 		1900 12753 12867 
 	}
 	
+
+	local_supplies=0.0 
 }

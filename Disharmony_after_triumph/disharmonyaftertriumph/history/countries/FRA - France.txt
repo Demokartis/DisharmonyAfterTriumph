@@ -121,13 +121,12 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Hubert Lagardelle"
+	name = "Paul Faure"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "Portrait_Hubert_Lagardelle.dds"
+	picture = "Portrait_Paul_Faure.dds"
 	expire = "1965.1.1"
 	ideology = communardist_subtype
 	traits = {
-		stout_defender
 	}
 }
 

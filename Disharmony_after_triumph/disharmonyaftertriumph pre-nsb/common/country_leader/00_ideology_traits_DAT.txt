@@ -1,0 +1,5 @@
+leader_traits = {
+	trait_revolutionary_conservatism = {
+		random = no
+	}
+}
