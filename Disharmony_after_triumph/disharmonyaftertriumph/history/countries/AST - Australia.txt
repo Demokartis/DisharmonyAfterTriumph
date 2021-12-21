@@ -93,7 +93,59 @@ set_popularities = {
 
 set_convoys = 100
 
-	set_convoys = 100
+create_country_leader = {
+	name = "John Curtin"
+	desc = "POLITICS_JOHN_CURTIN_DESC"
+	picture = "Portrait_Australia_John_Curtin.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Eric Campbell"
+	desc = "POLITICS_ERIC_CAMPBELL_DESC"
+	picture = "GFX_AST_eric_campbell"
+	expire = "1965.1.1"
+	ideology = national_chauvinist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Richard Dixon"
+	desc = "POLITICS_RICHARD_DIXON_DESC"
+	picture = "GFX_AST_richard_dixon"
+	expire = "1965.1.1"
+	ideology = collective_vanguardist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Earle Page"
+	desc = "POLITICS_EARLE_PAGE_DESC"
+	picture = "GFX_AST_earle_page"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Edward VIII"
+	desc = "POLITICS_EDWARD_VIII_DESC"
+	picture = "Portrait_Australia_Edward_VIII.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
 }
 
 if = {

@@ -19,6 +19,7 @@ set_technology = {
 	tech_support = 1		
 	tech_recon = 1
 	tech_engineers = 1
+	basic_train = 1
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -98,40 +99,6 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}
-
-create_field_marshal = {
-	name = "Carl Gustaf Emil Mannerheim"
-	picture = "portrait_fin_carl_mannerheim.dds"
-	traits = { inflexible_strategist war_hero trait_cautious defensive_doctrine trickster winter_specialist }
-	skill = 5
-	id = 58
-	attack_skill = 3
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Erik Heinrichs"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { winter_specialist ranger }
-	skill = 4
-    attack_skill = 4
-    defense_skill = 4
-    planning_skill = 3
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Vilho Petter Nenonen"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = { winter_specialist commando }
-	skill = 3
-    attack_skill = 3
-    defense_skill = 1
-    planning_skill = 4
-    logistics_skill = 2
 }
 
 ### VARIANTS ###

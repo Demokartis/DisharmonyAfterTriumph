@@ -1,6 +1,19 @@
 ﻿capital = 9
 
-oob = "CZE_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "CZE_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "CZE_1936_nsb"
+}
 
 set_technology = {
 	infantry_weapons = 1
@@ -9,14 +22,32 @@ set_technology = {
 	tech_recon = 1
 	tech_mountaineers = 1
 	gw_artillery = 1
-	gwtank = 1
-	basic_light_tank = 1
-	improved_light_tank = 1
 	interwar_antiair = 1
 	early_fighter = 1
 	early_bomber = 1
 	CAS1 = 1
 	fuel_silos = 1
+	basic_train = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		improved_light_tank_chassis = 1
+	}
 }
 
 set_research_slots = 3
@@ -67,50 +98,3 @@ create_country_leader = {
 		#
 	}
 }
-
-create_field_marshal = {
-	name = "Vojtěch Luža"
-	gfx = "GFX_Portrait_czechoslovakia_vojtech_luza"
-	traits = { fast_planner offensive_doctrine }
-	skill = 3
-    attack_skill = 4
-    defense_skill = 2
-    planning_skill = 3
-    logistics_skill = 1
-}
-
-create_field_marshal = {
-	name = "Josef Šnejdárek"
-	gfx = "GFX_Portrait_czechoslovakia_josef_snejdarek"
-	traits = { thorough_planner defensive_doctrine }
-	skill = 3
-    attack_skill = 3
-    defense_skill = 4
-    planning_skill = 2
-    logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Richard Tesařík"
-	gfx = "GFX_Portrait_czechoslovakia_richard_tesarik"
-	traits = { armor_officer }
-	skill = 2
-    attack_skill = 4
-    defense_skill = 1
-    planning_skill = 1
-    logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Sergej Vojcechovský"
-	gfx = "GFX_Portrait_czechoslovakia_sergej_vojcechovsky"
-	traits = { winter_specialist }
-	skill = 3
-    attack_skill = 4
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 1
-}
-
-
-

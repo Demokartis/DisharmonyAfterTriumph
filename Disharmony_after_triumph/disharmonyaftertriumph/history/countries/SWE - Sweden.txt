@@ -21,13 +21,31 @@ set_technology = {
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
-	gwtank = 1
-	basic_light_tank = 1
 	CAS1 = 1
 	early_fighter = 1
 	naval_bomber1 = 1
 	cv_naval_bomber1 = 1
 	early_bomber = 1
+	basic_train = 1
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -134,42 +152,6 @@ create_country_leader = {
 		#
 	}
 }
-
-create_corps_commander = {
-	name = "Folke Högberg"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { commando }
-	skill = 3
-
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Erik af Edholm"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = {  hill_fighter }
-	skill = 4
-
-	attack_skill = 4
-	defense_skill = 1
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_navy_leader = {
-	name = "Claes Lindström"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
-	traits = { battleship_adherent blockade_runner }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	maneuvering_skill = 3
-	coordination_skill = 3
-}
-
 
 ### VARIANTS ###
 # 1936 Start #

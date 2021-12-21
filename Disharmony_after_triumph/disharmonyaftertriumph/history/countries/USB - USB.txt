@@ -13,14 +13,13 @@ set_variable = { var = quorum_low value = 39 }
 set_variable = { var = quorum_medium value = 49 }
 set_variable = { var = quorum_high value = 58 }
 # Starting tech
-set_technology = {
+et_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
 	gw_artillery = 1
-	gwtank = 1
 	early_fighter = 1
 	cv_early_fighter = 1
 	cv_naval_bomber1 = 1
@@ -31,6 +30,23 @@ set_technology = {
 	superior_firepower = 1
 	base_strike = 1
 
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
 }
 
 set_convoys = 400
