@@ -4,7 +4,8 @@ MKH_integrate_ukraine_category = {
 
 		icon = GFX_decision_eng_trade_unions_demand
 
-		highlight_state_targets = { state = 202 }
+		highlight_states = { highlight_state_targets = { state = 202 } highlight_color_while_active = 1
+        }
 		
 		available = {
 			tag = MKH
@@ -38,7 +39,8 @@ MKH_integrate_ukraine_category = {
 
 		icon = GFX_decision_eng_trade_unions_demand
 
-		highlight_state_targets = { state = 203 }
+		highlight_states = { highlight_state_targets = { state = 203 } highlight_color_while_active = 1
+        }
 		
 		available = {
 			tag = MKH
@@ -72,7 +74,8 @@ MKH_integrate_ukraine_category = {
 
 		icon = GFX_decision_eng_trade_unions_demand
 
-		highlight_state_targets = { state = 197 }
+		highlight_states = { highlight_state_targets = { state = 197 } highlight_color_while_active = 1
+        }
 		
 		available = {
 			tag = MKH
@@ -106,7 +109,8 @@ MKH_integrate_ukraine_category = {
 
 		icon = GFX_decision_eng_trade_unions_demand
 
-		highlight_state_targets = { state = 259 }
+		highlight_states = { highlight_state_targets = { state = 259 } highlight_color_while_active = 1
+        }
 		
 		available = {
 			tag = MKH
@@ -140,7 +144,8 @@ MKH_integrate_ukraine_category = {
 
 		icon = GFX_decision_eng_trade_unions_demand
 
-		highlight_state_targets = { state = 221 }
+		highlight_states = { highlight_state_targets = { state = 221 } highlight_color_while_active = 1
+        }
 		
 		available = {
 			tag = MKH
@@ -174,7 +179,8 @@ MKH_integrate_ukraine_category = {
 
 		icon = GFX_decision_eng_trade_unions_demand
 
-		highlight_state_targets = { state = 193 }
+		highlight_states = { highlight_state_targets = { state = 193 } highlight_color_while_active = 1
+        }
 		
 		available = {
 			tag = MKH
@@ -208,7 +214,8 @@ MKH_integrate_ukraine_category = {
 
 		icon = GFX_decision_eng_trade_unions_demand
 
-		highlight_state_targets = { state = 225 }
+		highlight_states = { highlight_state_targets = { state = 225 } highlight_color_while_active = 1
+        }
 		
 		available = {
 			tag = MKH
@@ -242,7 +249,8 @@ MKH_integrate_ukraine_category = {
 
 		icon = GFX_decision_eng_trade_unions_demand
 
-		highlight_state_targets = { state = 201 }
+		highlight_states = { highlight_state_targets = { state = 201 } highlight_color_while_active = 1
+        }
 		
 		available = {
 			tag = MKH
@@ -276,7 +284,8 @@ MKH_integrate_ukraine_category = {
 
 		icon = GFX_decision_eng_trade_unions_demand
 
-		highlight_state_targets = { state = 198 }
+		highlight_states = { highlight_state_targets = { state = 198 } highlight_color_while_active = 1
+        }
 		
 		available = {
 			tag = MKH

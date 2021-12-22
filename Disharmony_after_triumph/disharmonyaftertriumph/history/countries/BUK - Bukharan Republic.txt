@@ -91,10 +91,3 @@ set_popularities = {
 	revolutionary_socialist = 4
 	paternal_autocrat = 70
 }
-
-recruit_character = BUK_mohammed_alim_khan
-recruit_character = BUK_polat_usmon
-
-
-
-

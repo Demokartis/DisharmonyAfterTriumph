@@ -86,8 +86,3 @@ set_popularities = {
 	collective_vanguardist = 10
 	paternal_autocrat = 0
 }
-
-
-recruit_character = MEL_zinovy_zhadinov
-
-

@@ -86,8 +86,3 @@ set_popularities = {
 	collective_vanguardist = 10
 	paternal_autocrat = 10
 }
-
-
-recruit_character = UDM_boris
-
-

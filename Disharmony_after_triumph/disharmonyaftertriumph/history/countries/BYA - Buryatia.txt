@@ -91,12 +91,3 @@ set_popularities = {
 	collective_vanguardist = 0
 	paternal_autocrat = 50
 }
-
-recruit_character = BYA_seymon_ignatyev
-recruit_character = BYA_bidia_dandaron
-
-
-
-
-
-

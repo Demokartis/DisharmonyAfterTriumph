@@ -86,8 +86,3 @@ set_popularities = {
 	collective_vanguardist = 0
 	paternal_autocrat = 0
 }
-
-
-recruit_character = KBK_betal_kalmyk
-
-

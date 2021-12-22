@@ -91,12 +91,3 @@ set_popularities = {
 	collective_vanguardist = 20
 	paternal_autocrat = 20
 }
-
-recruit_character = YAK_pavel_pevznyak
-recruit_character = YAK_anatoly_pepelyayev
-
-
-
-
-
-

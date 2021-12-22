@@ -85,8 +85,3 @@ set_popularities = {
 	national_chauvinist = 10
 	collective_vanguardist = 20
 }
-
-
-recruit_character = TAT_alexandr_alemasov
-
-

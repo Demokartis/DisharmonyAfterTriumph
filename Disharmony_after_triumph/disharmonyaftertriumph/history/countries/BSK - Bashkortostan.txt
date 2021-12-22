@@ -87,7 +87,3 @@ set_popularities = {
 	paternal_autocrat = 20
 }
 
-
-recruit_character = BSK_yakov_bykin
-
-

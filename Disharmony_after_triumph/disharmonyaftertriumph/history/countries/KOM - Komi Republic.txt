@@ -85,8 +85,3 @@ set_popularities = {
 	national_chauvinist = 10
 	collective_vanguardist = 40
 }
-
-
-recruit_character = KOM_pavel_murashev
-
-

@@ -82,6 +82,14 @@ add_ideas = {
    MKH_collectivized_society
 } 
 
+recruit_character = MKH_nestor_makhno
+recruit_character = MKH_nikifor_grigoriev
+recruit_character = MKH_simon_karetnik
+recruit_character =	MKH_fedir_shchus
+recruit_character =	MKH_viktor_belash
+recruit_character =	MKH_dmitry_ivanovich_popov
+recruit_character =	MKH_fedir_shchus
+
 set_politics = {
 	ruling_party = insurrectionary_anarchist
 	last_election = "1932.9.18"
@@ -95,83 +103,3 @@ set_popularities = {	insurrectionary_anarchist = 85	communardist = 5	collecti
 }
 
  set_cosmetic_tag = MAKHNOVIA
-
-create_country_leader = {
-	name = "Nestor Makhno"
-	desc = ""
-	picture = "gfx/leaders/MKH/Portrait_Nestor_Makhno.dds"
-	expire = "1953.3.1"
-	ideology = insurrectionary_anarchist_subtype
-	traits = {
-		
-	}
-}
-create_field_marshal = {
-	name = "Nestor Makhno" 
-	id = 900
-	picture = "Portrait_Nestor_Makhno.dds"
-	traits = { fast_planner organisational_leader unyielding_defender inspirational_leader guerilla_fighter }
-	skill = 4 
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Simon Karetnik" 
-	id = 897
-	picture = "Portrait_Simon_Karetnik.dds"
-	traits = { inflexible_strategist hill_fighter }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Fedir Shchus" 
-	id = 898
-	picture = "Portrait_Fedir_Shchus.dds"
-	traits = { cavalry_officer naval_liason }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-}
-create_corps_commander = {
-	name = "Viktor Belash" 
-	id = 899
-	picture = "Portrait_Viktor_Belash.dds"
-	traits = { inflexible_strategist politically_connected }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 5
-}
-create_corps_commander = {
-	name = "Nikifor Grigoriev" 
-	id = 901
-	picture = "Portrait_Nikifor_Grigoriev.dds"
-	traits = { hidden_sympathies }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Dmitry Ivanovich Popov" 
-	picture = "Portrait_Dmitry_Ivanovich_Popov.dds"
-	traits = { hidden_sympathies naval_invader }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-
-

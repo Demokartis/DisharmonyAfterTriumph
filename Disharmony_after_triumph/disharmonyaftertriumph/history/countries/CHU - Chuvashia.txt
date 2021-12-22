@@ -86,8 +86,3 @@ set_popularities = {
 	collective_vanguardist = 10
 	paternal_autocrat = 40
 }
-
-
-recruit_character = CHU_gerasim_ivanov
-
-

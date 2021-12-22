@@ -91,12 +91,3 @@ set_popularities = {
 	collective_vanguardist = 20
 	paternal_autocrat = 10
 }
-
-recruit_character = KAL_im_badmayev
-recruit_character = KAL_nikolai_tundutov
-
-
-
-
-
-

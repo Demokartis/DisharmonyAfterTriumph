@@ -1,0 +1,120 @@
+characters={
+	MKH_nestor_makhno ={
+		name="Nestor Makhno"
+		portraits={
+			civilian={
+				large="gfx/leaders/MKH/Portrait_Nestor_Makhno.dds"
+				small="gfx/interface/ideas/idea_Nestor_Makhno.dds"
+			}
+		}
+		country_leader={
+			ideology=insurrectionary_anarchist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		field_marshal={
+			traits = { fast_planner organisational_leader unyielding_defender inspirational_leader guerilla_fighter }
+			skill = 4 
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	MKH_nikifor_grigoriev ={
+		name="Nikifor Grigoriev"
+		portraits={
+			civilian={
+				large="gfx/leaders/MKH/Portrait_Nikifor_Grigoriev.dds"
+				small="gfx/interface/ideas/idea_Nikifor_Grigoriev.dds"
+			}
+		}
+		country_leader={
+			ideology=left_nationalist
+			expire="1965.1.1.1"
+			id=-1
+		}
+		corps_commander={
+			traits = { hidden_sympathies }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	MKH_simon_karetnik ={
+		name="Simon Karetnik"
+		portraits={
+			army={
+				large="gfx/leaders/MKH/Portrait_Simon_Karetnik.dds"
+				small="Portrait_Simon_Karetnik.dds"
+			}
+		}
+		corps_commander={
+			traits = { inflexible_strategist hill_fighter }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	MKH_fedir_shchus ={
+		name="Fedir Shchus"
+		portraits={
+			army={
+				large="gfx/leaders/MKH/Portrait_Fedir_Shchus.dds"
+				small="Portrait_Fedir_Shchus.dds"
+			}
+		}
+		corps_commander={
+			traits = { cavalry_officer naval_liason }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	MKH_viktor_belash ={
+		name="Viktor Belash"
+		portraits={
+			army={
+				large="gfx/leaders/MKH/Portrait_Viktor_Belash.dds"
+				small="Portrait_Viktor_Belash.dds"
+			}
+		}
+		corps_commander={
+			traits = { inflexible_strategist politically_connected }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+			legacy_id=-1
+		}
+	}
+	MKH_dmitry_ivanovich_popov ={
+		name="Dmitry Ivanovich Popov"
+		portraits={
+			army={
+				large="gfx/leaders/MKH/Portrait_Dmitry_Ivanovich_Popov.dds"
+				small="Portrait_Dmitry_Ivanovich_Popov.dds"
+			}
+		}
+		corps_commander={
+			traits = { hidden_sympathies naval_invader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+}

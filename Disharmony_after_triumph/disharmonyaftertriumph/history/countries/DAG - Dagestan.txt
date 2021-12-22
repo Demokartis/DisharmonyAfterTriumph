@@ -86,9 +86,3 @@ set_popularities = {
 	collective_vanguardist = 10
 	paternal_autocrat = 30
 }
-
-
-recruit_character = DAG_khair_hajji_uzunsky
-recruit_character = DAG_adil_girey_takhtarov
-
-
