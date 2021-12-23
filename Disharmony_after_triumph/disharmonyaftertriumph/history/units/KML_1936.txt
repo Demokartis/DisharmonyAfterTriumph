@@ -1,0 +1,61 @@
+﻿division_template = {
+	name = "Uighur Militia"				# Represents a corps of 3 NRA divisions (2 brigades of 2 regiments each)
+									# Militia-level training and equipment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Kumul Horde"				
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = { 
+		division_name = {
+			name_order = 1
+		}
+		location = 1838
+		division_template = "Uighur Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division = { 
+		division_name = {
+			name_order = 3
+		}
+		location = 1838
+		division_template = "Kumul Horde"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division = { 
+		division_name = {
+			name_order = 4
+		}
+		location = 1838
+		division_template = "Kumul Horde"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "TRK"
+		}
+		requested_factories = 1
+		progress = 0.51
+		efficiency = 100
+	}
+}

@@ -2,6 +2,8 @@
 
 set_research_slots = 2
 
+oob = "KUB_1936"
+
 # Starting tech
 set_technology = {
 	tech_support = 1		

@@ -793,7 +793,6 @@ default_stockpile_management = {
 
 dont_build_capitals_if_on_treaty = {
 	enable = {
-		has_naval_treaty_trigger = yes
 		not = {
 			OR = {
 				original_tag = JAP
@@ -803,7 +802,6 @@ dont_build_capitals_if_on_treaty = {
 	}
 
 	abort = {
-		not = { has_naval_treaty_trigger = yes }
 	}
 
 	ai_strategy = {

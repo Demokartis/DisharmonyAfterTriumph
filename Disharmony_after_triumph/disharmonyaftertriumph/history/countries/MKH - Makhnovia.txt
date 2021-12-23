@@ -88,7 +88,6 @@ recruit_character = MKH_simon_karetnik
 recruit_character =	MKH_fedir_shchus
 recruit_character =	MKH_viktor_belash
 recruit_character =	MKH_dmitry_ivanovich_popov
-recruit_character =	MKH_fedir_shchus
 
 set_politics = {
 	ruling_party = insurrectionary_anarchist

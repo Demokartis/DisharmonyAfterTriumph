@@ -26,5 +26,6 @@ can_lose_unity = {
 can_lose_democracy_support = {
 	collective_vanguardist < 0.18
 	national_chauvinist < 0.18
+	communardist < 0.18
 	social_conservative > 0.65
 }

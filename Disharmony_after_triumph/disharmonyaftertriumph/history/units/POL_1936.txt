@@ -94,7 +94,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 14
 		}
-		location = 6558
+		location = 17
 		division_template = "Dywizja Piechoty"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -139,7 +139,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 109
 		}
-		location = 6558
+		location = 17
 		division_template = "Brygada Kawalerii" 
 		force_equipment_variants = { infantry_equipment_0 = { owner = "POL" } }
 		start_experience_factor = 0.2

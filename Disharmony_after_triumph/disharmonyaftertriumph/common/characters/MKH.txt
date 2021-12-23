@@ -19,7 +19,7 @@ characters={
 			defense_skill = 4
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id=-1
+			legacy_id=1
 		}
 	}
 	MKH_nikifor_grigoriev ={
@@ -31,7 +31,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=left_nationalist
+			ideology=left_nationalist_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -42,7 +42,7 @@ characters={
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 4
-			legacy_id=-1
+			legacy_id=2
 		}
 	}
 	MKH_simon_karetnik ={
@@ -60,7 +60,7 @@ characters={
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 4
-			legacy_id=-1
+			legacy_id=3
 		}
 	}
 	MKH_fedir_shchus ={
@@ -78,7 +78,7 @@ characters={
 			defense_skill = 2
 			planning_skill = 3
 			logistics_skill = 3
-			legacy_id=-1
+			legacy_id=4
 		}
 	}
 	MKH_viktor_belash ={
@@ -96,7 +96,7 @@ characters={
 			defense_skill = 2
 			planning_skill = 4
 			logistics_skill = 5
-			legacy_id=-1
+			legacy_id=5
 		}
 	}
 	MKH_dmitry_ivanovich_popov ={
@@ -114,7 +114,7 @@ characters={
 			defense_skill = 2
 			planning_skill = 2
 			logistics_skill = 3
-			legacy_id=-1
+			legacy_id=6
 		}
 	}
 }

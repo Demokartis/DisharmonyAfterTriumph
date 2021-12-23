@@ -133,7 +133,7 @@ country_event = {
 				every_unit_leader = {
 					limit = {
 						OR = {
-							has_id = 901
+							has_id = 1
 						}
 					}
 					set_nationality = event_target:left_nationalist_makhnovia_civil_war
@@ -172,9 +172,9 @@ country_event = {
 				every_unit_leader = {
 					limit = {
 						OR = {
-							has_id = 897 
-							has_id = 898
-							has_id = 899
+							has_id = 3
+							has_id = 4
+							has_id = 5
 						}
 					}
 					set_nationality = event_target:insurrectionary_anarchist_makhnovia_civil_war
@@ -206,22 +206,15 @@ country_event = {
 			long_name = MKH_left_nationalist_party_grigoriev_long 
 			name = MKH_left_nationalist_party_grigoriev 
 		}
-		create_country_leader = {
-			name = "Viktor Belash"
-			desc = "POLITICS_VIKTOR_BELASH_DESC"
-			picture = gfx/leaders/MKH/Portrait_Viktor_Belash.dds
-			expire = "1965.1.1"
-			ideology = insurrectionary_anarchist_subtype
-			traits = {
-			}
-		}
-		create_country_leader = {
-			name = "Nikifor Grigoriev"
-			desc = "POLITICS_NIKIFOR_GRIGORIEV_DESC"
-			picture = gfx/leaders/MKH/Portrait_Nikifor_Grigoriev.dds
-			expire = "1965.1.1"
-			ideology = left_nationalist_subtype
-			traits = {
+		MKH_viktor_belash {
+			add_country_leader_role = {
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = insurrectionary_anarchist_subtype
+					traits = {
+					}
+				}
+				promote_leader = yes
 			}
 		}
 		add_popularity = {

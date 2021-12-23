@@ -17,6 +17,17 @@ set_popularities = {
 	paternal_autocrat = 100
 }
 
+# DIPLOMACY / WAR 
+	declare_war_on = {
+		target = TRK
+		type = annex_everything
+	}
+	# DIPLOMACY / WAR 
+	declare_war_on = {
+		target = KML
+		type = annex_everything
+	}
+
 create_country_leader = {
 	name = "Sheng Shicai"
 	desc = "POLITICS_SHENG_SHICAI_DESC"

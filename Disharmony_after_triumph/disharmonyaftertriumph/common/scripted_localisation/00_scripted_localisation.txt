@@ -644,7 +644,6 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			if = {
-				limit = { ENG = { has_naval_treaty_trigger = yes } }
 				naval_strength_comparison = {
 					other = ENG
 					ratio < 1
@@ -667,7 +666,6 @@ defined_text = { # Country
 				}
 			}
 			else_if = {
-				limit = { USA = { has_naval_treaty_trigger = yes } }
 				naval_strength_comparison = {
 					other = USA
 					ratio < 1
@@ -695,7 +693,6 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			if = {
-				limit = { ENG = { has_naval_treaty_trigger = yes } }
 				naval_strength_comparison = {
 					other = ENG
 					ratio < 0.9
@@ -718,7 +715,6 @@ defined_text = { # Country
 				}
 			}
 			else_if = {
-				limit = { USA = { has_naval_treaty_trigger = yes } }
 				naval_strength_comparison = {
 					other = USA
 					ratio < 0.9
@@ -746,7 +742,6 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			if = {
-				limit = { ENG = { has_naval_treaty_trigger = yes } }
 				naval_strength_comparison = {
 					other = ENG
 					ratio < 0.75
@@ -769,7 +764,6 @@ defined_text = { # Country
 				}
 			}
 			else_if = {
-				limit = { USA = { has_naval_treaty_trigger = yes } }
 				naval_strength_comparison = {
 					other = USA
 					ratio < 0.75
@@ -797,7 +791,6 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			if = {
-				limit = { ENG = { has_naval_treaty_trigger = yes } }
 				naval_strength_comparison = {
 					other = ENG
 					ratio < 0.5
@@ -810,7 +803,6 @@ defined_text = { # Country
 				}
 			}
 			else_if = {
-				limit = { USA = { has_naval_treaty_trigger = yes } }
 				naval_strength_comparison = {
 					other = USA
 					ratio < 0.5
@@ -828,7 +820,6 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			if = {
-				limit = { ENG = { has_naval_treaty_trigger = yes } }
 				naval_strength_comparison = {
 					other = ENG
 					ratio > 1
@@ -841,7 +832,6 @@ defined_text = { # Country
 				}
 			}
 			else_if = {
-				limit = { USA = { has_naval_treaty_trigger = yes } }
 				naval_strength_comparison = {
 					other = USA
 					ratio > 1
@@ -862,7 +852,6 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			ENG = {
-				has_naval_treaty_trigger = yes
 			}
 		}
 		localization_key = ENG_Naval_treaty_nation
@@ -870,10 +859,8 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			ENG = {
-				not = { has_naval_treaty_trigger = yes }
 			}
 			USA = {
-				has_naval_treaty_trigger = yes
 			}
 		}
 		localization_key = USA_Naval_treaty_nation

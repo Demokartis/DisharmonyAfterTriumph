@@ -11,8 +11,6 @@ if = {
 	}
 }
 
-load_oob = "ROB_Motorized"
-
 set_research_slots = 4
 
 set_stability = 0.6

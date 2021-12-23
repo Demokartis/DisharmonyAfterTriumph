@@ -17,6 +17,17 @@ set_popularities = {
 	paternal_autocrat = 100
 }
 
+# DIPLOMACY / WAR 
+	declare_war_on = {
+		target = SIK
+		type = annex_everything
+	}
+	# DIPLOMACY / WAR 
+	declare_war_on = {
+		target = TRK
+		type = annex_everything
+	}
+
 create_country_leader = {
 	name = "Ma Zhongying"
 	desc = "POLITICS_MA_ZHONGYING_DESC"

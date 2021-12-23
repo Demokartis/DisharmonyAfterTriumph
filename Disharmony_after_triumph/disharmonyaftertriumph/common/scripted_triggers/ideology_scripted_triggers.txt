@@ -6,7 +6,79 @@ is_enemy_ideology = {
 			ROOT = {
 				OR = {
 					has_government = national_chauvinist
+					has_government = social_liberal
+					has_government = authoritarian_democrat
+					has_government = communardist
+					has_government = paternal_autocrat
 					has_government = social_conservative
+					has_government = social_democrat
+					has_government = market_liberal
+					has_government = insurrectionary_anarchist
+					
+				}
+			}
+		}
+		AND = {
+			has_government = revolutionary_socialist
+			ROOT = {
+				OR = {
+					has_government = national_chauvinist
+					has_government = social_liberal
+					has_government = authoritarian_democrat
+					has_government = paternal_autocrat
+					has_government = social_conservative
+					has_government = social_democrat
+					has_government = market_liberal
+					has_government = insurrectionary_anarchist
+					
+				}
+			}
+		}
+		AND = {
+			has_government = communardist
+			ROOT = {
+				OR = {
+					has_government = national_chauvinist
+					has_government = social_liberal
+					has_government = collective_vanguardist
+					has_government = authoritarian_democrat
+					has_government = paternal_autocrat
+					has_government = social_conservative
+					has_government = social_democrat
+					has_government = market_liberal
+					has_government = insurrectionary_anarchist
+					
+				}
+			}
+		}
+		AND = {
+			has_government = left_nationalist
+			ROOT = {
+				OR = {
+					has_government = social_liberal
+					has_government = authoritarian_democrat
+					has_government = paternal_autocrat
+					has_government = social_conservative
+					has_government = social_democrat
+					has_government = market_liberal
+					has_government = insurrectionary_anarchist
+					has_government = communardist
+					
+				}
+			}
+		}
+		AND = {
+			has_government = insurrectionary_anarchist
+			ROOT = {
+				OR = {
+					has_government = national_chauvinist
+					has_government = social_liberal
+					has_government = authoritarian_democrat
+					has_government = paternal_autocrat
+					has_government = social_conservative
+					has_government = market_liberal
+					has_government = left_nationalist
+					
 				}
 			}
 		}
@@ -16,6 +88,77 @@ is_enemy_ideology = {
 				OR = {
 					has_government = collective_vanguardist
 					has_government = national_chauvinist
+					has_government = insurrectionary_anarchist
+					has_government = communardist
+					has_government = revolutionary_socialist
+					has_government = left_nationalist
+					has_government = paternal_autocrat
+				}
+			}
+		}
+		AND = {
+			has_government = social_democrat
+			ROOT = {
+				OR = {
+					has_government = collective_vanguardist
+					has_government = national_chauvinist
+					has_government = insurrectionary_anarchist
+					has_government = paternal_autocrat
+					has_government = left_nationalist
+					has_government = communardist
+				}
+			}
+		}
+		AND = {
+			has_government = social_liberal
+			ROOT = {
+				OR = {
+					has_government = collective_vanguardist
+					has_government = national_chauvinist
+					has_government = insurrectionary_anarchist
+					has_government = left_nationalist 
+					has_government = revolutionary_socialist
+					has_government = paternal_autocrat
+					has_government = communardist
+				}
+			}
+		}
+		AND = {
+			has_government = market_liberal
+			ROOT = {
+				OR = {
+					has_government = collective_vanguardist
+					has_government = national_chauvinist
+					has_government = insurrectionary_anarchist
+					has_government = left_nationalist
+					has_government = revolutionary_socialist
+					has_government = paternal_autocrat
+					has_government = communardist
+				}
+			}
+		}
+		AND = {
+			has_government = paternal_autocrat
+			ROOT = {
+				OR = {
+					has_government = collective_vanguardist
+					has_government = insurrectionary_anarchist
+					has_government = communardist
+					has_government = revolutionary_socialist
+					has_government = social_liberal
+					has_government = market_liberal
+					has_government = social_democrat
+				}
+			}
+		}
+		AND = {
+			has_government = authoritarian_democrat
+			ROOT = {
+				OR = {
+					has_government = collective_vanguardist
+					has_government = insurrectionary_anarchist
+					has_government = communardist
+					has_government = revolutionary_socialist
 				}
 			}
 		}
@@ -24,7 +167,13 @@ is_enemy_ideology = {
 			ROOT = {
 				OR = {
 					has_government = social_conservative
+					has_government = social_liberal
+					has_government = social_democrat
 					has_government = collective_vanguardist
+					has_government = market_liberal
+					has_government = insurrectionary_anarchist
+					has_government = communardist
+					has_government = revolutionary_socialist
 				}
 			}
 		}

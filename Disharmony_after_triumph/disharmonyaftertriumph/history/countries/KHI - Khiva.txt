@@ -92,8 +92,4 @@ set_popularities = {
 	social_conservative = 20
 }
 
-recruit_character = KHI_nedirbay_aytakov
-recruit_character = KHI_junaid_khan
-
-
 

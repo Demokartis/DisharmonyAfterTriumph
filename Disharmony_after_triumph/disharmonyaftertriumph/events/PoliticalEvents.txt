@@ -15,7 +15,6 @@ country_event = {
 		NOT = { has_government = collective_vanguardist }
 		collective_vanguardist > 0.6
 		NOT = { collective_vanguardist > 0.7 }
-		check_has_focus_tree_to_switch_to_collective_vanguardist = yes
 		NOT = {
 			AND = {
 				original_tag = SPR
@@ -364,7 +363,6 @@ country_event = {
 		NOT = { has_government = national_chauvinist }
 		national_chauvinist > 0.6
 		NOT = { national_chauvinist > 0.7 }
-		check_has_focus_tree_to_switch_to_national_chauvinist = yes
 		NOT = {
 			AND = {
 				original_tag = SPR
@@ -739,7 +737,6 @@ country_event = {
 		NOT = { has_government = social_conservative }
 		social_conservative > 0.6
 		NOT = { social_conservative > 0.7 }
-		check_has_focus_tree_to_switch_to_social_conservative = yes
 		NOT = {
 			AND = {
 				original_tag = SPR
@@ -1117,7 +1114,6 @@ country_event = {
 		#has_idea = fascist_revolutionaries
 		NOT = { has_government = national_chauvinist }
 		has_civil_war = no
-		check_has_focus_tree_to_switch_to_national_chauvinist = yes
 		NOT = {
 			AND = {
 				original_tag = SPR
@@ -1237,7 +1233,6 @@ country_event = {
 			NOT = { original_tag = TUR }
 		}
 		has_civil_war = no
-		check_has_focus_tree_to_switch_to_collective_vanguardist = yes
 		NOT = {
 			AND = {
 				original_tag = SPR
@@ -1343,7 +1338,6 @@ country_event = {
 			NOT = { original_tag = TUR }
 		}
 		has_civil_war = no
-		check_has_focus_tree_to_switch_to_social_conservative = yes
 		NOT = {
 			AND = {
 				original_tag = SPR
