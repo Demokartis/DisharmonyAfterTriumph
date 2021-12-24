@@ -109,7 +109,10 @@ country_event = {
 				ruling_party = insurrectionary_anarchist
 				ideology = left_nationalist
 				size = 0.3
-				capital = 227
+				set_capital = {
+					state = 227
+					remember_old_capital = no
+				}	
 				states = { 227 }
 				keep_unit_leaders = {
 					897 898 899
@@ -117,7 +120,10 @@ country_event = {
 			}	
 		hidden_effect = {
 			set_country_flag = MKH_grigoriev_revolts
-			set_capital = 200
+			set_capital = {
+				state = 200
+				remember_old_capital = no
+			}	
 			drop_cosmetic_tag = yes
 			random_other_country = {
 				limit = {
@@ -147,12 +153,18 @@ country_event = {
 			set_country_flag = MKH_stability_secured
 			white_peace = UKR
 			drop_cosmetic_tag = yes
-			set_capital = 227
+			set_capital = {
+				state = 227 
+				remember_old_capital = no
+			}	
 			start_civil_war = {
 				ruling_party = left_nationalist
 				ideology = insurrectionary_anarchist
 				size = 0.7 
-				capital = 200
+				set_capital = {
+					state = 200
+					remember_old_capital = no
+				}	
 				states = { 200 226 196 }
 				keep_unit_leaders = {
 					901	
@@ -206,7 +218,7 @@ country_event = {
 			long_name = MKH_left_nationalist_party_grigoriev_long 
 			name = MKH_left_nationalist_party_grigoriev 
 		}
-		MKH_viktor_belash {
+		MKH_viktor_belash = {
 			add_country_leader_role = {
 				country_leader = {
 					expire = "1965.1.1"

@@ -16,7 +16,7 @@ units = {
 		division_name = {
 			name_order = 1
 		}
-		location = 1698
+		location = 1069
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -26,7 +26,7 @@ units = {
 		division_name = {
 			name_order = 2
 		}
-		location = 8042
+		location = 4205
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -36,7 +36,7 @@ units = {
 		division_name = {
 			name_order = 3
 		}
-		location = 12864
+		location = 12015
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -46,7 +46,7 @@ units = {
 		division_name = {
 			name_order = 4
 		}
-		location = 1698
+		location = 1184
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -57,10 +57,10 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
-			creator = "TNG"
+			creator = "SHA"
 		}
 		requested_factories = 1
-		progress = 0.52
+		progress = 0.58
 		efficiency = 100
 	}
 }

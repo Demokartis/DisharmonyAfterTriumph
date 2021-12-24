@@ -4,7 +4,6 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/MKH/Portrait_Nestor_Makhno.dds"
-				small="gfx/interface/ideas/idea_Nestor_Makhno.dds"
 			}
 		}
 		country_leader={
@@ -27,7 +26,6 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/MKH/Portrait_Nikifor_Grigoriev.dds"
-				small="gfx/interface/ideas/idea_Nikifor_Grigoriev.dds"
 			}
 		}
 		country_leader={
@@ -50,7 +48,6 @@ characters={
 		portraits={
 			army={
 				large="gfx/leaders/MKH/Portrait_Simon_Karetnik.dds"
-				small="Portrait_Simon_Karetnik.dds"
 			}
 		}
 		corps_commander={
@@ -68,7 +65,6 @@ characters={
 		portraits={
 			army={
 				large="gfx/leaders/MKH/Portrait_Fedir_Shchus.dds"
-				small="Portrait_Fedir_Shchus.dds"
 			}
 		}
 		corps_commander={
@@ -84,9 +80,13 @@ characters={
 	MKH_viktor_belash ={
 		name="Viktor Belash"
 		portraits={
+			civilian={
+				large="gfx/leaders/MKH/Portrait_Viktor_Belash.dds"
+			}
+		}
+		portraits={
 			army={
 				large="gfx/leaders/MKH/Portrait_Viktor_Belash.dds"
-				small="Portrait_Viktor_Belash.dds"
 			}
 		}
 		corps_commander={
@@ -104,7 +104,6 @@ characters={
 		portraits={
 			army={
 				large="gfx/leaders/MKH/Portrait_Dmitry_Ivanovich_Popov.dds"
-				small="Portrait_Dmitry_Ivanovich_Popov.dds"
 			}
 		}
 		corps_commander={

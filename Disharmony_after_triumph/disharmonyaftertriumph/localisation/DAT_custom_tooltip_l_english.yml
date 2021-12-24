@@ -1,8 +1,0 @@
-﻿l_english:
- MKH_integrate_ukraine_tt:0 "Severals decisions regarding the upcoming war against the Ukranian SSR will appear."
- decision_cost_20_cp:0 "§H20§!£command_power"
- decision_cost_20_cp_blocked:0 "§H20§!£command_power"
- decision_cost_20_cp_tooltip:0 "It costs 20£command_power to select this."
- decision_cost_30_cp:0 "§H30§!£command_power"
- decision_cost_30_cp_blocked:0 "§H30§!£command_power"
- decision_cost_30_cp_tooltip:0 "It costs 30£command_power to select this."

@@ -119,7 +119,7 @@ units = {
 		start_equipment_factor = 0.85
 	}		
 	division= {	
-		location = 7851
+		location = 7844
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.85

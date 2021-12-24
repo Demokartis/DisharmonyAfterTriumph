@@ -653,6 +653,16 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}	
 	
+	spriteType = {
+		name = "GFX_idea_slot_person_of_influence"
+		textureFile = "gfx/interface/idea_slot_person_of_influence.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_head_of_government"
+		textureFile = "gfx/interface/idea_slot_head_of_government.dds"
+	}
+	
 	frameAnimatedSpriteType = {
 		name = "GFX_tutorial_politics_icon_glow"
 		texturefile = "gfx//interface//tutorial//politics_icon_glow.dds"

@@ -57,6 +57,29 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 	}
+	units = {
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1228
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	units = {
+	#India Command
+	division= {	# "Madras District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 8011
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
 }
 
 air_wings = {

@@ -159,7 +159,11 @@ set_cosmetic_tag = SOV_russia
 	declare_war_on = {
 		target = RUS		
 		type = annex_everything
-	}	
+	}
+	declare_war_on = {
+		target = SIB		
+		type = annex_everything
+	}
 	
 
 create_country_leader = {

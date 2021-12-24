@@ -119,9 +119,6 @@ set_popularities = {
 	revolutionary_socialist = 2
 }
 
-create_faction = "Democrat League"
-add_to_faction = RUS
-
 create_country_leader = {
 	name = "Alexander Fyodorovich Kerensky"
 	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
