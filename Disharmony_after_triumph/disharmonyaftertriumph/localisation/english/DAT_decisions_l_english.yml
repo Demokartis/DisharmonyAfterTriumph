@@ -18,6 +18,7 @@
  MKH_integrate_sumy:0 "Integrate Sumy"
  MKH_integrate_zhytomyr:0 "Integrate Zhytomyr"
  MKH_integrate_vinnytsia:0 "Integrate Vinnytsia"
+ MKH_integrate_odessa:0 "Integrate Odessa"
  MKH_council_of_insurgents_support_header:0 "§HStatus of the Council§!"
  MKH_status_council_of_insurgents_amount:0 "[MKH_insurgents_support]"
  MKH_insurgents_support_POSITIVE:0 "§GPOSITIVE§!"

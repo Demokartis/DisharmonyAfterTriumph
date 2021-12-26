@@ -1,7 +1,10 @@
 ﻿l_english:
- RUS_social_democrat:0 "Russian Republic"
- RUS_social_democrat_DEF:0 "the Russian Republic"
+ RUS_social_democrat:0 "Russian Democratic Federal Republic"
+ RUS_social_democrat_DEF:0 "the Russian Democratic Federal Republic"
  RUS_social_democrat_ADJ:0 "Russian"
+ RUS_authoritarian_democrat:0 "Russian State"
+ RUS_authoritarian_democrat_DEF:0 "the Russian State"
+ RUS_authoritarian_democrat_ADJ:0 "Russian"
  RUS:0 "Russia"
  RUS_DEF:0 "Russia"
  RUS_ADJ:0 "Russian"

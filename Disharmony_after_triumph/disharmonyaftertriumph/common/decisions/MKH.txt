@@ -315,6 +315,41 @@ MKH_integrate_ukraine_category = {
 			}
 		}
 	}	
+	MKH_integrate_odessa = {
+
+		icon = GFX_decision_eng_trade_unions_demand
+
+		highlight_states = { highlight_state_targets = { state = 192 } highlight_color_while_active = 1
+        }
+		
+		available = {
+			tag = MKH
+			has_full_control_of_state = 192
+		}
+
+		cost = 20
+
+        days_remove = 5
+		fire_only_once = yes
+
+		visible = {
+		}
+
+        modifier = {
+			stability_weekly = -0.0015
+			political_power_gain = -0.05
+		}
+		
+		remove_effect  = {
+			add_state_core = 192
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+	}
 	MKH_smuggle_soviet_weapons = {
 
 		icon = GFX_decision_ger_military_buildup
@@ -639,7 +674,6 @@ MKH_they_are_among_us_category = {
 		OR = {
 			has_country_flag = MKH_stability_secured 
 			has_country_flag = MKH_grigoriev_revolts 
-			has_country_flag = collaborators_purged
 		}		
 		}
 		

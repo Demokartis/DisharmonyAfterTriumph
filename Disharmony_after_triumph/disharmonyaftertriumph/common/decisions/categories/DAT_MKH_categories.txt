@@ -22,10 +22,7 @@ MKH_they_are_among_us_category = {
 
 	visible = {
 		has_completed_focus = MKH_they_are_among_us
-		OR = {
-			NOT = {	has_country_flag = MKH_stability_secured }
-			NOT = {	has_country_flag = MKH_grigoriev_revolts }			
-		}		
+		NOT = {	has_country_flag = MKH_grigoriev_solved }		
 	}
 }
 MKH_council_of_insurgents_category = {

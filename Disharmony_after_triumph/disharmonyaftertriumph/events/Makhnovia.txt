@@ -119,7 +119,7 @@ country_event = {
 				}
 			}	
 		hidden_effect = {
-			set_country_flag = MKH_grigoriev_revolts
+			set_country_flag = MKH_grigoriev_solved
 			set_capital = {
 				state = 200
 				remember_old_capital = no
@@ -150,7 +150,7 @@ country_event = {
 	option = {
 		name = makhnovia.5.b	
 		hidden_effect = {
-			set_country_flag = MKH_stability_secured
+			set_country_flag = MKH_grigoriev_solved
 			white_peace = UKR
 			drop_cosmetic_tag = yes
 			set_capital = {
@@ -251,7 +251,11 @@ country_event = {
 
 	option = {
 		name = makhnovia.7.a
-		remove_unit_leader = 901
+		remove_unit_leader = 2
+		remove_country_leader_role = {
+			character = MKH_nikifor_grigoriev
+			ideology = left_nationalist_subtype
+		}
 		add_political_power = -10
 		add_popularity = {
 				ideology = left_nationalist
