@@ -1,4 +1,4 @@
-version="1.10.6"
+version="1.11.4"
 tags={
 	"Gameplay"
 	"Alternative History"
@@ -31,5 +31,5 @@ replace_path="events"
 replace_path="common/characters"
 replace_path="common/generation"
 replace_path="history/general"
-supported_version="1.10.6"
+supported_version="1.11.4"
 path="C:/Users/juanp/Documents/Paradox Interactive/Hearts of Iron IV/mod/disharmonyaftertriumph"
