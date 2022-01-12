@@ -10,6 +10,10 @@ set_convoys = 20
  set_cosmetic_tag = NAFU
  give_military_access = FRA
 
+add_ideas = {
+   ALG_islamic_traditionalists
+}
+
 set_politics = {
 	ruling_party = communardist
 	last_election = "1936.1.1"

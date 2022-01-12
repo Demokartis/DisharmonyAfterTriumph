@@ -137,6 +137,11 @@ add_to_faction = UKR
 add_to_faction = LIT
 add_to_faction = BLR
 
+add_ideas = {
+   SOV_heirs_of_lenin
+   SOV_party_factionalism
+}
+
 set_cosmetic_tag = SOV_russia
 
 # DIPLOMACY / WAR 

@@ -64,6 +64,10 @@ set_convoys = 45
 set_stability = 0.2
 set_war_support = 0.1
 
+add_ideas = {
+   ZAP_caudillos_confederation
+}
+
 set_politics = {
 	ruling_party = revolutionary_socialist
 	last_election = "1934.7.1"

@@ -1,0 +1,29 @@
+ideas = {
+
+	country = {
+
+		ITA_defenders_of_the_mediterranean = {
+
+			name = ITA_defenders_of_the_mediterranean
+			picture = ITA_defenders_of_the_mediterranean
+
+			allowed = {
+				original_tag = ITA
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			modifier = {
+				social_conservative_drift = 0.01
+				market_liberal_drift = 0.01
+				social_liberal_drift = 0.01
+				social_democrat_drift = 0.01
+				stability_factor = 0.2
+			}
+			
+		}
+		
+	}
+}	

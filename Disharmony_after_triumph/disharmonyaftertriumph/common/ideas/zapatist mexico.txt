@@ -1,0 +1,23 @@
+ideas = {
+
+	country = {
+
+		ZAP_caudillos_confederation = {
+
+			name = ZAP_caudillos_confederation
+
+			picture = ZAP_caudillos_confederation
+
+			allowed = {
+				original_tag = ZAP
+			}
+
+			modifier = {
+				political_power_cost = 0.3
+				stability_factor = -0.15
+				command_power_gain = 0.05
+				conscription_factor = -0.1
+			}
+		}		
+	}
+}	

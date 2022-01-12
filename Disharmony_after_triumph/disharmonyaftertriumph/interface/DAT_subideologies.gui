@@ -12,13 +12,26 @@ guiTypes = {
 				name = "party_box"
 				instantTextboxType = {
 					name = "party"
-					position = { x = 9 y = 8 }
+					position = { x = 9 y = 3 }
 					font = "hoi_18mbs"
-					text = [get_sub_ideology]
+					text = [get_subideology]
 					maxWidth = 155
 					maxHeight = 20
 				}
 			}	
+		}
+	}
+	containerWindowType = {
+		name = "diplo_subideology_info"
+		instantTextboxType = {
+			name = "subideology_name"
+			position = { x = 262 y = 145 }
+			font = "hoi_16mbs"
+			text = "SUBIDEOLOGY_TEXT"
+			pdx_tooltip = "SUBIDEOLOGY_TEXT_DESC"
+			maxWidth = 245
+			maxHeight = 20
+			format = left
 		}
 	}
 }	

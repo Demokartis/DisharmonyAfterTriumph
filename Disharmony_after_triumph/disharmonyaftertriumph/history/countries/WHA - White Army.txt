@@ -115,6 +115,11 @@ set_popularities = {
 	social_conservative = 2
 }
 
+add_ideas = {
+   WHA_winter_defense
+   WHA_allied_volunteers
+}
+
 create_faction = "White Army"
 add_to_faction = WHA
 add_to_faction = WHC

@@ -28,6 +28,20 @@ units = {
 		start_equipment_factor = 0.2
 
 	}
+	division = {
+		name = "Ordos Jingbei"
+		location = 4986
+		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "Xian Jingbei"
+		location = 7418
+		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.2
+
+	}
 	
 }
 

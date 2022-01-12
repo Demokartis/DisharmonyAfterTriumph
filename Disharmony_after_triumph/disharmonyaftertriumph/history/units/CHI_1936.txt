@@ -38,152 +38,6 @@ division_template = {
 
 ### OOB ###
 units = {
-	###### Kuomintang Army (CO: Chang Kai-shek) ######
-	##### Beiping-Tianjin Area (CO: ) #####
-	### 29 Juntuan (highly-reinforced corps) ###
-	division = {
-		name = "37 Bubing Shi"
-		location = 9843
-		division_template = "Sanjiao Jun"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "38 Bubing Shi"
-		location = 10068
-		division_template = "Sanjiao Jun"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "132 Bubing Shi"
-		location = 11761
-		division_template = "Sanjiao Jun"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "143 Bubing Shi"
-		location = 4140
-		division_template = "Sanjiao Jun"
-		start_experience_factor = 0.2
-	}
-
-	##### First War Area (CO: Cheng Qian) #####
-	division = { # "4 Qibing Jun"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
-		location = 4925
-		division_template = "Qibing Jun"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
-	### 2nd Army Group (CO: Liu Shi) ###
-	division = { # "3 Juntuán"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 3
-		}
-		location = 12408
-		division_template = "Juntuán"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
-
-	}
-	division = { # "2 Bubing Shi"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 402
-		}
-		location = 7256
-		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-
-	}
-	division = { # "25 Bubing Shi"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 425
-		}
-		location = 7256
-		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-
-	}
-	## 1st Army ##
-	division = { # "27 Bubing Shi"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 427
-		}
-		location = 2091
-		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-
-	}
-	division = {
-		name = "1 Lujun Shi"
-		location = 8072
-		division_template = "Juntuán"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.1
-	}
-	## 14th Army ##
-	division = {
-		name = "14 Lujun Shi"
-		location = 10144
-		division_template = "Sanjiao Jun"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.1
-	}
-	### 7th Army Group (CO: Fu Zuoyi) ###
-	division = { # "4 Bubing Shi"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 404
-		}
-		location = 9958
-		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-
-	}
-	division = { # "89 Bubing Shi"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 489
-		}
-		location = 9958
-		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-
-	}
-	division = { # "17 Juntuán"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 17
-		}
-		location = 4114
-		division_template = "Juntuán"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
-	division = { # "6 Qibing Jun"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 6
-		}
-		location = 4114
-		division_template = "Qibing Jun"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
 	##### Third War Area (CO: Gu Zhutong) #####
 	division = { # "1 Juntuán"
 		division_name = {
@@ -254,13 +108,6 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 
-	}
-	division = {
-		name = "8 Lujun Shi"
-		location = 4925
-		division_template = "Juntuán"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.1
 	}
 	## 9th Army (CO: Zhang Zhizhong) ##
 	division = { # "36 Bubing Shi"
@@ -416,41 +263,6 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-
-	##### Yangtze War Area (CO: ) #####
-	division = {
-		name = "Wuhan Jingbei"
-		location = 4619
-		division_template = "Juntuán"		# Garrison unit (poor equipment and training)
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.1
-	}
-	### River Defense Force (CO: ) ###
-	division = {
-		name = "11 Lujun Shi"
-		location = 1036
-		division_template = "Juntuán"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.1
-	}
-	division = {
-		name = "12 Lujun Shi"
-		location = 7637
-		division_template = "Juntuán"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.1
-	}
-	division = { # "43 Juntuán"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 43
-		}
-		location = 9959
-		division_template = "Juntuán"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
 	### Capital Garrison Force (CO: ) ###
 	division = {
 		name = "2 Lujun Shi"
@@ -498,16 +310,30 @@ units = {
 		start_equipment_factor = 0.7
 		start_experience_factor = 0.1
 	}
+	division = {
+		name = "1 Guangzhou Jingbei"
+		location = 9938
+		division_template = "Juntuán"		# Garrison unit (poor equipment and training)
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.1
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 300
+		}
+		location = 1047
+		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+
+	}
 }
 
 
 ### Air Forces ###
 air_wings = {
 # Roughly 300 fighters, 21 tac bombers, but only 200 aircraft total were serviceable in 1937 due to neglect
-	# Beijing
-	608 = { 
-		fighter_equipment_0 = { owner = "CHI" amount = 30 }				# 3rd PG - Fiat CR.32
-	}
 	#Shanghai
 	613 = {
 		fighter_equipment_0 = { owner = "CHI" amount = 70 } 		# 4th PF, 5th PG, 9th PS - Curtiss Hawk

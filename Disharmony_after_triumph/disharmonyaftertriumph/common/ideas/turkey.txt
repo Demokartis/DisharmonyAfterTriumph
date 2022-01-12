@@ -1,0 +1,54 @@
+ideas = {
+
+	country = {
+
+		TUR_bitter_loser = {
+
+			name = TUR_bitter_loser 
+
+			picture = TUR_bitter_loser 
+
+			allowed = {
+				original_tag = TUR
+			}
+
+			modifier = {
+				war_support_factor = 0.15
+				stability_factor = -0.1
+			}
+		}
+		
+		TUR_the_ottoman_disgrace = {
+
+			name = TUR_the_ottoman_disgrace
+
+			picture = TUR_the_ottoman_disgrace
+
+			allowed = {
+				original_tag = TUR
+			}
+
+			modifier = {
+                paternal_autocrat_drift = -0.03
+			}
+		}		
+		
+		TUR_panturkish_revanchism = {
+
+			name = TUR_panturkish_revanchism
+
+			picture = TUR_panturkish_revanchism
+
+			allowed = {
+				original_tag = TUR
+			}
+
+			modifier = {
+                national_chauvinist_drift = 0.01
+				army_core_attack_factor = 0.08
+				recruitable_population = 0.03
+				war_support_factor = 0.1 
+			}
+		}				
+	}
+}	

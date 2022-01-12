@@ -201,7 +201,7 @@
 	}	
 	shared_focus = {
 		id = ENG_power_in_us
-		mutually_exclusive = { focus = ENG_compromise_with_the_tories focus = ENG_friends_in_the_upper_class }	
+		mutually_exclusive = { focus = ENG_compromise_with_the_tories focus = ENG_friends_in_the_upper_class focus = ENG_coalition_liberals }	
 		available = {
 			}
 		
@@ -212,7 +212,7 @@
 
 		icon = ENG_power_in_us
 		relative_position_id = ENG_the_traitors
-		x = 1
+		x = 2
 		y = 1
 		cost = 3
 		ai_will_do = {
@@ -226,7 +226,7 @@
 	}	
 	shared_focus = {
 		id = ENG_compromise_with_the_tories
-		mutually_exclusive = { focus = ENG_power_in_us focus = ENG_friends_in_the_upper_class }
+		mutually_exclusive = { focus = ENG_power_in_us focus = ENG_friends_in_the_upper_class focus = ENG_coalition_liberals }
 		available = {
 			}
 		
@@ -251,7 +251,7 @@
 	}		
 	shared_focus = {
 		id = ENG_friends_in_the_upper_class
-		mutually_exclusive = { focus = ENG_compromise_with_the_tories focus = ENG_power_in_us  }
+		mutually_exclusive = { focus = ENG_compromise_with_the_tories focus = ENG_power_in_us focus = ENG_coalition_liberals  }
 		available = {
 			}
 		
@@ -275,6 +275,31 @@
 		}
 	}			
 	shared_focus = {
+		id = ENG_coalition_liberals
+		mutually_exclusive = { focus = ENG_compromise_with_the_tories focus = ENG_power_in_us focus = ENG_friends_in_the_upper_class }
+		available = {
+			}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = ENG_the_guilty focus = ENG_the_traitors }
+
+		icon = ENG_coalition_liberals
+		relative_position_id = ENG_power_in_us
+		x = -4
+		y = 0
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {	
+		}
+	}	
+	shared_focus = {
 		id = ENG_execute_suspected_conspirators
 		available = {
 			}
@@ -282,11 +307,11 @@
 		bypass = {
 		}
 		
-		prerequisite = { focus = ENG_power_in_us focus = ENG_friends_in_the_upper_class focus = ENG_compromise_with_the_tories }
+		prerequisite = { focus = ENG_power_in_us focus = ENG_friends_in_the_upper_class focus = ENG_compromise_with_the_tories focus = ENG_coalition_liberals }
 
 		icon = ENG_execute_suspected_conspirators
 		relative_position_id = ENG_power_in_us
-		x = -1
+		x = -2
 		y = 1
 		cost = 3
 		ai_will_do = {
@@ -306,11 +331,11 @@
 		bypass = {
 		}
 		
-		prerequisite = { focus = ENG_power_in_us focus = ENG_friends_in_the_upper_class focus = ENG_compromise_with_the_tories }
+		prerequisite = { focus = ENG_power_in_us focus = ENG_friends_in_the_upper_class focus = ENG_compromise_with_the_tories focus = ENG_coalition_liberals }
 
 		icon = ENG_emphasize_french_intervention
 		relative_position_id = ENG_power_in_us
-		x = 1
+		x = 0
 		y = 1
 		cost = 3
 		ai_will_do = {

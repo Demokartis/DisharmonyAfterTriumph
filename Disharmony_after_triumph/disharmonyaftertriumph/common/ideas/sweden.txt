@@ -1,0 +1,36 @@
+ideas = {
+
+	country = {
+
+		SWE_norwegian_resistance = {
+
+			name = SWE_norwegian_resistance
+
+			picture = SWE_norwegian_resistance
+
+			allowed = {
+				original_tag = SWE
+			}
+
+			modifier = {
+				resistance_growth = 0.3
+				compliance_gain = -0.08
+				stability_factor = -0.20
+			}
+		}	
+		SWE_political_instability = {
+
+			name = SWE_political_instability
+
+			picture = SWE_political_instability
+
+			allowed = {
+				original_tag = SWE
+			}
+
+			modifier = {
+				stability_factor = -0.10 
+			}
+		}
+	}
+}	

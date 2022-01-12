@@ -9,6 +9,7 @@ ideas = {
 				}
 			}
 			visible = {
+				NOT = { has_country_flag = makhno_death }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea MKH_nestor_makhno_hog_ia"

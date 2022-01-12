@@ -1,0 +1,25 @@
+opinion_modifiers = {
+	
+	same_ruling_party = {
+		value = 40
+	}
+	
+	similar_ruling_party_close = {
+		value = 30
+	}
+	
+	similar_ruling_party = {
+		value = 20
+	}
+	
+	similar_ruling_party_distant = {
+		value = 10
+	}
+	
+	different_party_types_close = {
+		value = -10
+	}
+	different_party_types = {
+		value = -30
+	}
+}

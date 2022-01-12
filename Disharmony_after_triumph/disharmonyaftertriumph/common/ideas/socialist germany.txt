@@ -1,0 +1,19 @@
+ideas = {
+
+	country = {
+
+		SGE_rhineland = {
+
+			name = SGE_rhineland
+
+			picture = SGE_rhineland
+
+			allowed = {
+				original_tag = SGE
+			}
+
+			modifier = {
+			}
+		}				
+	}
+}	

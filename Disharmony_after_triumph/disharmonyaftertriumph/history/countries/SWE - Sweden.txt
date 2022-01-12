@@ -93,6 +93,11 @@ set_popularities = {
 	social_democrat = 8
 }
 
+add_ideas = {
+   SWE_norwegian_resistance
+   SWE_political_instability
+}
+
 set_cosmetic_tag = SWE_NOR
 
 set_convoys = 25

@@ -126,6 +126,10 @@ if = {
 
 set_convoys = 200
 
+add_ideas = {
+   ITA_defenders_of_the_mediterranean
+}
+
 set_politics = {
 	ruling_party = social_liberal
 	last_election = "1934.3.26"

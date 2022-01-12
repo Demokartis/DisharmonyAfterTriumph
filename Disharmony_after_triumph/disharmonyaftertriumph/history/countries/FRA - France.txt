@@ -143,6 +143,12 @@ set_convoys = 300
  give_guarantee = WGR
  give_guarantee = FLA
 
+add_ideas = {
+   FRA_home_of_the_revolution
+   FRA_disharmony_after_triumph
+   FRA_the_great_split
+}
+
 set_politics = {
 	ruling_party = communardist
 	last_election = "1932.5.1"

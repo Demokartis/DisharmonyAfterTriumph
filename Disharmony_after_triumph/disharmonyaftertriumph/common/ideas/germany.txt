@@ -29,10 +29,10 @@ ideas = {
 			}
 
 			modifier = {
-                collective_vanguardist_drift = -0.05
-                communardist_drift = -0.05
-                revolutionary_socialist_drift = -0.05
-                insurrectionary_anarchist_drift = -0.05
+                collective_vanguardist_drift = -0.03
+                communardist_drift = -0.03
+                revolutionary_socialist_drift = -0.03
+                insurrectionary_anarchist_drift = -0.03
 				conscription = 0.015
 				war_support_factor = 0.1 
 			}
@@ -65,7 +65,7 @@ ideas = {
 			}
 
 			modifier = {
-                authoritarian_democrat_drift = -0.05
+                authoritarian_democrat_drift = -0.01
 				stability_factor = -0.1
 			}
 		}	
@@ -82,7 +82,7 @@ ideas = {
 
 			modifier = {
                 paternal_autocrat_drift = 0.1
-				stability_factor = -0.15
+				stability_factor = -0.5
 			}
 		}				
 	}

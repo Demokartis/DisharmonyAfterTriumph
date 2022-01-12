@@ -9,8 +9,7 @@ state=
 	history=
 	{
 		owner = QGD
-		add_core_of = CHI
-		add_core_of = PRC
+		add_core_of = SHA
 		victory_points = {
 			10000 5 
 		}

@@ -18,8 +18,8 @@ units = {
 		}
 		location = 1069
 		division_template = "Juntuán"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
 
 	}
 	division = { 
@@ -28,8 +28,8 @@ units = {
 		}
 		location = 4205
 		division_template = "Juntuán"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
 
 	}
 	division = { 
@@ -38,8 +38,8 @@ units = {
 		}
 		location = 12015
 		division_template = "Juntuán"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
 
 	}
 	division = { 
@@ -48,8 +48,8 @@ units = {
 		}
 		location = 1184
 		division_template = "Juntuán"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
 
 	}
 }
@@ -60,7 +60,7 @@ instant_effect = {
 			creator = "SHA"
 		}
 		requested_factories = 1
-		progress = 0.58
+		progress = 0.68
 		efficiency = 100
 	}
 }

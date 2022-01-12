@@ -1,0 +1,69 @@
+ideas = {
+
+	country = {
+
+		SPR_the_ghost_of_the_second_republic = {
+
+			name = SPR_the_ghost_of_the_second_republic
+			picture = SPR_the_ghost_of_the_second_republic
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			modifier = {
+				stability_weekly = -0.25
+				social_conservative_drift = 0.01
+				social_liberal_drift = 0.01
+				social_democrat_drift = 0.01
+				political_power_gain = -0.04
+			}
+			
+		}
+		SPR_monarchist_dissent = {
+
+			name = SPR_monarchist_dissent
+			picture = SPR_monarchist_dissent
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			modifier = {
+				stability_weekly = -0.25
+				paternal_autocrat_drift = 0.01
+			}
+			
+		}
+		SPR_ravaged_army = {
+
+			name = SPR_ravaged_army
+			picture = SPR_ravaged_army
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			modifier = {
+				army_org = -8
+				planning_speed = -0.15
+				experience_gain_army_factor = -0.1
+				land_doctrine_cost_factor = 0.05
+				military_leader_cost_factor = 0.2 
+			}
+			
+		}
+	}
+}	

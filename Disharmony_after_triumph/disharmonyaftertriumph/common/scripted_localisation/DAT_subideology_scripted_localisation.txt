@@ -1,85 +1,110 @@
 defined_text = {
-	#SUB-Ideology
-	name = get_sub_ideology
-	text = {
-		trigger = {
-			has_country_leader_with_trait = trait_revolutionary_conservatism
-			has_government = authoritarian_democrat
-		}
-		localization_key = revolutionary_conservatism
+name = get_subideology
+text = {
+	trigger = { has_country_leader_ideology = revolutionary_conservatism }
+	localization_key = revolutionary_conservatism
 	}
-	##################################################################
-	text = {
-		trigger = {
-			has_government = paternal_autocrat
-		}
-		localization_key = paternal_autocrat
-	}
-	text = {
-		trigger = {
-			has_government = national_chauvinist
-		}
-		localization_key = national_chauvinist
-	}
-	text = {
-		trigger = {
-			has_government = authoritarian_democrat
-		}
-		localization_key = authoritarian_democrat
-	}
-	text = {
-		trigger = {
-			has_government = communardist
-		}
-		localization_key = communardist
-	}
-	text = {
-		trigger = {
-			has_government = social_conservative
-		}
-		localization_key = social_conservative
-	}
-	text = {
-		trigger = {
-			has_government = social_democrat
-		}
-		localization_key = social_democrat
-	}
-	text = {
-		trigger = {
-			has_government = social_liberal
-		}
-		localization_key = social_liberal
-	}
-	text = {
-		trigger = {
-			has_government = market_liberal
-		}
-		localization_key = market_liberal
-	}
-	text = {
-		trigger = {
-			has_government = collective_vanguardist
-		}
-		localization_key = collective_vanguardist
+text = {
+	trigger = { has_country_leader_ideology = paternal_autocrat_subtype }
+	localization_key = paternal_autocrat
+	}	
+text = {
+	trigger = { has_country_leader_ideology = social_conservative_subtype }
+	localization_key = social_conservative
+	}	
+text = {
+	trigger = { has_country_leader_ideology = communardist_subtype }
+	localization_key = communardist
+	}	
+text = {
+	trigger = { has_country_leader_ideology = authoritarian_democrat_subtype }
+	localization_key = authoritarian_democrat
+	}	
+text = {
+	trigger = { has_country_leader_ideology = national_chauvinist_subtype }
+	localization_key = national_chauvinist
+	}		
+text = {
+	trigger = { has_country_leader_ideology = collective_vanguardist_subtype }
+	localization_key = collective_vanguardist
+	}	
+text = {
+	trigger = { has_country_leader_ideology = insurrectionary_anarchist_subtype }
+	localization_key = insurrectionary_anarchist
+	}	
+text = {
+	trigger = { has_country_leader_ideology = market_liberal_subtype }
+	localization_key = market_liberal
+	}	
+text = {
+	trigger = { has_country_leader_ideology = social_liberal_subtype }
+	localization_key = social_liberal
+	}	
+text = {
+	trigger = { has_country_leader_ideology = social_democrat_subtype }
+	localization_key = social_democrat
+	}	
+text = {
+	trigger = { has_country_leader_ideology = revolutionary_socialist_subtype }
+	localization_key = revolutionary_socialist
+	}	
+text = {
+	trigger = { has_country_leader_ideology = left_nationalist_subtype }
+	localization_key = left_nationalist
+	}			
+}
+defined_text = {
+name = get_subideology_desc
+text = {
+	trigger = { has_country_leader_ideology = revolutionary_conservatism }
+	localization_key = revolutionary_conservatism_desc
 	}
 	text = {
-		trigger = {
-			has_government = insurrectionary_anarchist
-		}
-		localization_key = insurrectionary_anarchist
+	trigger = { has_country_leader_ideology = social_democrat_subtype }
+	localization_key = social_democrat_desc
 	}
 	text = {
-		trigger = {
-			has_government = left_nationalist
-		}
-		localization_key = left_nationalist
+	trigger = { has_country_leader_ideology = left_nationalist_subtype }
+	localization_key = left_nationalist_desc
 	}
 	text = {
-		trigger = {
-			has_government = revolutionary_socialist
-		}
-		localization_key = revolutionary_socialist
+	trigger = { has_country_leader_ideology = revolutionary_socialist_subtype }
+	localization_key = revolutionary_socialist_desc
 	}
-	####################################################################
+	text = {
+	trigger = { has_country_leader_ideology = social_liberal_subtype }
+	localization_key = social_liberal_desc
+	}
+	text = {
+	trigger = { has_country_leader_ideology = insurrectionary_anarchist_subtype }
+	localization_key = insurrectionary_anarchist_desc
+	}
+	text = {
+	trigger = { has_country_leader_ideology = authoritarian_democrat_subtype }
+	localization_key = authoritarian_democrat_desc
+	}
+	text = {
+	trigger = { has_country_leader_ideology = market_liberal_subtype }
+	localization_key = market_liberal_desc
+	}
+	text = {
+	trigger = { has_country_leader_ideology = collective_vanguardist_subtype }
+	localization_key = collective_vanguardist_desc
+	}
+	text = {
+	trigger = { has_country_leader_ideology = social_conservative_subtype }
+	localization_key = social_conservative_desc
+	}
+	text = {
+	trigger = { has_country_leader_ideology = paternal_autocrat_subtype }
+	localization_key = paternal_autocrat_desc
+	}
+	text = {
+	trigger = { has_country_leader_ideology = communardist_subtype }
+	localization_key = communardist_desc
+	}
+	text = {
+	trigger = { has_country_leader_ideology = national_chauvinist_subtype }
+	localization_key = national_chauvinist_desc
+	}
 }

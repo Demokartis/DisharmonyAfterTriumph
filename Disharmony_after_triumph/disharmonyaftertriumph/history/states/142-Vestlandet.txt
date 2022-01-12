@@ -40,7 +40,6 @@ state={
 			122 3
 		}
 		add_core_of = NOR
-		add_core_of = SWE
 	}
 
 	provinces={

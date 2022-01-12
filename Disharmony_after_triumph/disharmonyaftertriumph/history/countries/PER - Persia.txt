@@ -26,6 +26,10 @@ set_popularities = {
 	authoritarian_democrat = 10	
 }
 
+add_ideas = {
+   PER_the_persian_lion_roars
+}
+
 create_country_leader = {
 	name = "Reza Shah Pahlavi"
 	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"

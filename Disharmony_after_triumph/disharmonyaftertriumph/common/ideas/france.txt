@@ -13,23 +13,26 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_cost = 0.75
-				stability_factor = -0.10
+				drift_defence_factor = 0.5
+				army_morale_factor = 0.05
+				army_core_defence_factor = 0.05
+				stability_factor = 0.10
 			}
 		}	
 		FRA_disharmony_after_triumph = {
 
 			name = FRA_disharmony_after_triumph
 
-			picture = FRA_disharmony_after_triumph
+			picture = generic_victors_of_ww1
 
 			allowed = {
 				original_tag = FRA
 			}
 
 			modifier = {
-				political_power_cost = 0.75
-				stability_factor = -0.10
+				conscription = -0.003
+				war_support_factor = -0.25
+				land_doctrine_cost_factor = 0.5
 			}
 		}
 		FRA_the_great_split = {
@@ -43,8 +46,7 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_cost = 0.75
-				stability_factor = -0.10
+				political_power_cost = 0.25
 			}
 		}	
 		FRA_the_counterrevolution = {
@@ -58,38 +60,8 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_cost = 0.75
-				stability_factor = -0.10
-			}
-		}	
-		FRA_empowered_workers = {
-
-			name = FRA_empowered_workers
-
-			picture = FRA_empowered_workers
-
-			allowed = {
-				original_tag = FRA
-			}
-
-			modifier = {
-				political_power_cost = 0.75
-				stability_factor = -0.10
-			}
-		}	
-		FRA_industrial_superiority = {
-
-			name = FRA_industrial_superiority
-
-			picture = FRA_industrial_superiority
-
-			allowed = {
-				original_tag = FRA
-			}
-
-			modifier = {
-				political_power_cost = 0.75
-				stability_factor = -0.10
+				stability_factor = -0.15
+				national_chauvinist_drift = 0.02
 			}
 		}		
 	}

@@ -927,3 +927,27 @@ TNC = {
 	color = rgb { 108 158 116 }
 	color_ui = rgb { 108 158 116 }
 }
+RIF = {
+	color = rgb { 182 98 51 }
+	color_ui = rgb { 182 98 51 }
+}
+SCH = {
+	color = rgb { 135 107 153 }
+	color_ui = rgb { 135 107 153 }
+}
+HNN = {
+	color = rgb { 153 93 129 }
+	color_ui = rgb { 153 93 129 }
+}
+ZHI = {
+	color = rgb { 160 160 85 }
+	color_ui = rgb { 160 160 85 }
+}
+GZH = {
+	color = rgb { 120 144 153 }
+	color_ui = rgb { 120 144 153 }
+}
+ANH = {
+	color = rgb { 162 163 120 }
+	color_ui = rgb { 162 163 120 }
+}

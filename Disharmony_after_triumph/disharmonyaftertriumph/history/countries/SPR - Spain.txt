@@ -66,6 +66,12 @@ if = {
 	}
 }
 
+add_ideas = {
+   SPR_the_ghost_of_the_second_republic
+   SPR_monarchist_dissent
+   SPR_ravaged_army
+} 
+
 set_popularities = {
 	social_conservative = 7
 	social_democrat = 5		

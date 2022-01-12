@@ -1,6 +1,6 @@
 ﻿l_english:
  MKH_free_territory_makhnovshchina:0 "A Free Territory, Makhnovshchina!"
- MKH_free_territory_makhnovshchina_desc:0 "WIP."
+ MKH_free_territory_makhnovshchina_desc:0 "Rejoice workers and peasants, because in this territory organized under the anarchist principles of Bakunin and Kropotkin and guided by Makhno and the Insurrectionary Army, they are free from any chains, no longer slaves of any master, lord or state. The Makhnovist revolution must reach every corner of Ukraine."
  MKH_prepare_for_their_return:0 "Prepare For Their Return"
  MKH_prepare_for_their_return_desc:0 "WIP."
  MKH_usage_of_cossack_tactics:0 "Usage of Cossack Tactics"
@@ -18,7 +18,7 @@
  MKH_they_are_among_us:0 "They Are Among Us"
  MKH_they_are_among_us_desc:0 "WIP." 
  MKH_to_secure_anarchy:0 "To Secure Anarchy"
- MKH_to_secure_anarchy_desc:0 "WIP." 
+ MKH_to_secure_anarchy_desc:0 "In order for the , sacrifices need to be made." 
  MKH_we_are_better:0 "Better than the Reds"
  MKH_we_are_better_desc:0 "WIP."  
  MKH_testing_their_strength:0 "Testing their Strength"
@@ -55,4 +55,6 @@
  ENG_no_concessions_desc:0 "WIP."  
  ENG_the_isles_reunited:0 "The Isles Reunited"
  ENG_the_isles_reunited_desc:0 "WIP." 
+ ENG_coalition_liberals:0 "Coalition with the Liberals
+ ENG_coalition_liberals_desc:0 "WIP." 
  MKH_three_hurrahs_for_anarchy:0 "Three Hurrah's for Mother Anarchy!" 

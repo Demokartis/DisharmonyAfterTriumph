@@ -80,7 +80,10 @@ add_ideas = {
    MKH_agrarian_society
    MKH_anarchist_bulwark
    MKH_collectivized_society
+   MKH_nestor_makhno_hog_ina
 } 
+
+ set_cosmetic_tag = MAKHNOVIA
 
 recruit_character = MKH_nestor_makhno
 recruit_character = MKH_nikifor_grigoriev
@@ -100,5 +103,3 @@ set_popularities = {	insurrectionary_anarchist = 85	communardist = 5	collecti
 	paternal_autocrat = 1	
 	authoritarian_democrat = 4
 }
-
- set_cosmetic_tag = MAKHNOVIA

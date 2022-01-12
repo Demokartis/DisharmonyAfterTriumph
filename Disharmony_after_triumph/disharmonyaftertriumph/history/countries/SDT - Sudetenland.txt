@@ -39,6 +39,8 @@ if = {
 
 set_research_slots = 3
 
+recruit_character = SDT_engelbert_dollfuss
+
 set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1935.5.19"

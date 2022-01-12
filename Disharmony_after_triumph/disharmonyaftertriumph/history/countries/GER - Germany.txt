@@ -174,7 +174,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = revolutionary_conservatism
 	traits = {
-		trait_revolutionary_conservatism
 	}
 }
 

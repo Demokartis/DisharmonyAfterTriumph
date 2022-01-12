@@ -6,3 +6,5 @@
  decision_cost_30_cp:0 "§H30§!£command_power"
  decision_cost_30_cp_blocked:0 "§H30§!£command_power"
  decision_cost_30_cp_tooltip:0 "It costs 30£command_power to select this."
+ head_of_gov_available:0 "§RHeads of government can't be manually added or removed.§! They can only be changed via events, focuses, decisions and so on.\n\nThis list represents all possible heads of government for a nation, so the people here may be at odds with the current head, in a different country or even dead."
+ minister_available:0 "§RMinisters can't be manually added or removed.§! They can only be changed via events, focuses, decisions and so on.\n\nThis list represents all possible ministers for a nation, so the people here may be at odds with the current government, in a different country or even dead."

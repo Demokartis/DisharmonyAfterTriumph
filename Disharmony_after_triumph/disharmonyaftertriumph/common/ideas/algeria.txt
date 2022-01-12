@@ -1,0 +1,23 @@
+ideas = {
+
+	country = {
+
+		ALG_islamic_traditionalists = {
+
+			name = ALG_islamic_traditionalists
+
+			picture = ALG_islamic_traditionalists
+
+			allowed = {
+				original_tag = ALG
+			}
+
+			modifier = {
+				political_power_gain = -0.15
+				mobilization_speed = -0.01
+				conscription_factor = -0.12
+				stability_factor = -0.02
+			}
+		}				
+	}
+}	

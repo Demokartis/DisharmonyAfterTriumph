@@ -110,10 +110,10 @@ country_event = {
 				ideology = left_nationalist
 				size = 0.3
 				set_capital = {
-					state = 227
+					state = 196
 					remember_old_capital = no
 				}	
-				states = { 227 }
+				states = { 196 }
 				keep_unit_leaders = {
 					897 898 899
 				}
@@ -154,7 +154,7 @@ country_event = {
 			white_peace = UKR
 			drop_cosmetic_tag = yes
 			set_capital = {
-				state = 227 
+				state = 196 
 				remember_old_capital = no
 			}	
 			start_civil_war = {
@@ -165,10 +165,21 @@ country_event = {
 					state = 200
 					remember_old_capital = no
 				}	
-				states = { 200 226 196 }
+				states = { 200 226 227 }
 				keep_unit_leaders = {
 					901	
 				}
+			}
+			MKH_nikifor_grigoriev = {
+			add_country_leader_role = {
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = left_nationalist_subtype
+					traits = {
+					}
+				}
+				promote_leader = yes
+			}
 			}
 			random_other_country = {
 				limit = {
@@ -209,7 +220,7 @@ country_event = {
 	option = {
 		name = makhnovia.6.a	
 		kill_country_leader = yes
-		remove_unit_leader = 900 
+		remove_unit_leader = 1 
 		set_country_flag = makhno_death
 		add_stability = -0.2
 		add_political_power = -100

@@ -1,0 +1,15 @@
+characters={
+	SDT_engelbert_dollfuss ={
+		name="Engelbert Dollfuss"
+		portraits={
+			civilian={
+				large="gfx/leaders/SDT/Portrait_Engelbert_Dollfuss.dds"
+			}
+		}
+		country_leader={
+			ideology=paternal_autocrat_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,36 @@
+ideas = {
+
+	country = {
+
+		WHA_winter_defense = {
+
+			name = WHA_winter_defense
+
+			picture = WHA_winter_defense
+
+			allowed = {
+				original_tag = WHA
+			}
+
+			modifier = {
+				acclimatization_cold_climate_gain_factor = 0.5
+				winter_attrition = -0.5
+			}
+		}
+		WHA_allied_volunteers = {
+
+			name = WHA_allied_volunteers
+
+			picture = WHA_allied_volunteers
+
+			allowed = {
+				original_tag = WHA
+			}
+
+			modifier = {
+				weekly_manpower = 100 
+				experience_gain_army = 0.06
+			}
+		}
+	}
+}	

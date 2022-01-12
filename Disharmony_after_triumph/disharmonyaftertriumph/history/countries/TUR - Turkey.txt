@@ -110,6 +110,11 @@ set_popularities = {
 	national_chauvinist = 78
 }
 
+add_ideas = {
+   TUR_bitter_loser
+   TUR_the_ottoman_disgrace
+}
+
 set_convoys = 20
 set_stability = 0.5
 set_war_support = 0.3

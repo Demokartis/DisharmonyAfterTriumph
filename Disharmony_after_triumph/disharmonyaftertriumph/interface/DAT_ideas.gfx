@@ -23,6 +23,10 @@ spriteTypes = {
 	SpriteType = {  
 		name = "GFX_idea_MKH_anarchist_bulwark"
 		texturefile = "gfx/interface/ideas/MKH_anarchist_bulwark.dds"	
+	}
+	SpriteType = {  
+		name = "GFX_idea_FRA_home_of_the_revolution"
+		texturefile = "gfx/interface/ideas/FRA_home_of_the_revolution.dds"	
 	}	
 }
 

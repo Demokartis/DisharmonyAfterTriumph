@@ -49,3 +49,62 @@
  MKH_anarchy_last_stand:0 "Anarchy's Last Stand"
  MKH_anarchy_last_stand_desc:0 "WIP" 
  MKH_angered_kulaks:0 "Angered Kulaks"
+ 
+ ###ZAP###
+ ZAP_caudillos_confederation:0 "Caudillos Confederation"
+ ZAP_caudillos_confederation_desc:0 "WIP"
+ 
+ ###TUR###
+ TUR_bitter_loser:0 "Bitter Loser"
+ TUR_bitter_loser_desc:0 "WIP" 
+ TUR_the_ottoman_disgrace:0 "The Ottoman Disgrace"
+ TUR_the_ottoman_disgrace_desc:0 "WIP"
+ TUR_panturkish_revanchism:0 "Pan-Turkish Revanchism"
+ TUR_panturkish_revanchism_desc:0 "WIP"
+ 
+ ###ITA###
+ ITA_defenders_of_the_mediterranean:0 "Defenders of the Mediterranean"
+ ITA_defenders_of_the_mediterranean_desc:0 "WIP"
+ 
+ ###FRA###
+ FRA_home_of_the_revolution:0 "Home of the Revolution"
+ FRA_home_of_the_revolution_desc:0 "WIP"
+ FRA_disharmony_after_triumph:0 "Disharmony after Triumph"
+ FRA_disharmony_after_triumph_desc:0 "WIP"
+ FRA_the_great_split:0 "The Great Split"
+ FRA_the_great_split_desc:0 "WIP"
+ FRA_the_counterrevolution:0 "The Counterrevolution Unfolds..."
+ FRA_the_counterrevolution_desc:0 "WIP"
+ 
+ ###ALG###
+ ALG_islamic_traditionalists:0 "Islamic Traditionalists"
+ ALG_islamic_traditionalists_desc:0 "WIP"
+ 
+ ###WHA###
+ WHA_winter_defense:0 "Winter Defense"
+ WHA_winter_defense_desc:0 "WIP"
+ WHA_allied_volunteers:0 "Allied Volunteers"
+ WHA_allied_volunteers_desc:0 "WIP"
+ 
+ ###SOV###  
+ SOV_heirs_of_lenin:0 "Heirs of Lenin"
+ SOV_heirs_of_lenin_desc:0 "WIP" 
+ SOV_party_factionalism:0 "Party Factionalism"
+ SOV_party_factionalism_desc:0 "WIP" 
+  
+ ###SPR###  
+ SPR_the_ghost_of_the_second_republic:0 "The Ghost of the Second Republic"
+ SPR_the_ghost_of_the_second_republic_desc:0 ""WIP"
+ SPR_monarchist_dissent:0 "Monarchist Dissent"
+ SPR_monarchist_dissent_desc:0 ""WIP"
+ SPR_ravaged_army:0 "Ravaged Army"
+ SPR_ravaged_army_desc:0 ""WIP"
+
+ ###SWE###  
+ SWE_political_instability:0 "Political Instability"
+ SWE_political_instability_desc:0 "WIP" 
+ SWE_norwegian_resistance:0 "Norwegian Resistance"
+ SWE_norwegian_resistance_desc:0 "WIP" 
+ ###PER###  
+ PER_the_persian_lion_roars:0 "The Persian Lion Roars"
+ PER_the_persian_lion_roars_desc:0 "WIP" 

@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_MKH_nestor_makhno_hog_ina"
+		texturefile = "gfx/interface/ministers/MKH/MKH_nestor_makhno.png"
+	}
+}
